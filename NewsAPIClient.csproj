@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.News</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/news</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>News API is a simple tool for scraping news data. It returns the news title, description, and more.</Description>
+    <RepositoryUrl>https://github.com/apiverve/news-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>news; news data; news scraper; news api; news data scraper; news data extraction; news data extraction api; news data extraction tool; news data extraction software; news data extraction service; news data extraction library; news data extraction sdk; news data extraction code; news data extraction script; news data extraction program; news data extraction application; news data extraction app; news data extraction tool; news data extraction utility; news data extraction helper; news data extraction helper tool; news data extraction helper software; news data extraction helper service; news data extraction helper library; news data extraction helper sdk; news data extraction helper code; news data extraction helper script; news data extraction helper program; news data extraction helper application; news data extraction helper app; news data extraction helper tool; news data extraction helper utility; news data extraction helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
