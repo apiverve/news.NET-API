@@ -94,489 +94,489 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "date": "2024-05-15",
+    "date": "2024-07-17",
     "category": "technology",
     "articleCount": 60,
     "articles": [
       {
         "category": "technology",
-        "website": "NYT > Technology",
-        "title": "An A.I. Robot Named Sophia Tells Graduates to Believe in Themselves",
-        "pubDate": "Wed, 15 May 2024 21:44:12 +0000",
-        "description": "D’Youville University in Buffalo had an A.I. robot speak at its commencement on Saturday. Not everyone was happy about it.",
-        "link": "https://www.nytimes.com/2024/05/15/nyregion/dyouville-university-commencement-robot-speaker.html"
+        "website": "Latest news",
+        "title": "165+ best Prime Day deals: Sales on AirPods, Kindles, Fire TV Sticks, and more",
+        "pubDate": "Wed, 17 Jul 2024 15:10:31 +0000",
+        "description": "Our experts found the best deals during Amazon Prime Day 2, including Apple products, TVs, laptops, headphones, robot vacuums, and more.",
+        "link": "https://www.zdnet.com/article/best-amazon-prime-day-deals-live-2024-07-17/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "I demoed Google's Project Astra and it felt like the future of generative AI (until it didn't)",
-        "pubDate": "Wed, 15 May 2024 21:20:00 +0000",
-        "description": "The company's vision of multimodal AI looks promising, but it'll need to smooth out some wrinkles before officially launching.",
-        "link": "https://www.zdnet.com/article/i-demoed-googles-project-astra-and-it-felt-like-the-future-of-generative-ai-until-it-didnt/#ftag=RSSbaffb68"
+        "title": "The 39 best Prime Day monitor deals",
+        "pubDate": "Wed, 17 Jul 2024 15:08:00 +0000",
+        "description": "Looking to upgrade your existing PC monitor? There are some great monitor deals from Samsung, LG, Acer, and more available during Amazon Prime Day.",
+        "link": "https://www.zdnet.com/article/best-amazon-prime-day-monitor-deals-2024-07-17/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "The best budget robot vacuums",
+        "pubDate": "2024-07-17T15:06:57Z",
+        "description": "Illustration: The Verge          \t\t  You don’t have to spend a fortune to have a robot clean your floors. Here’s our pick of the most cost-effective bots you can buy right now. Continue reading…",
+        "link": "https://www.theverge.com/23846479/best-budget-robot-vacuum-robot-mop"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "The best Prime Day deals on Amazon devices ",
+        "pubDate": "2024-07-17T15:06:34Z",
+        "description": "The Kindle Scribe is down to an all-time low price. | Image: Amelia Holowaty Krales          Amazon Prime Day 2024 has officially arrived. We’ve already published a detailed guide to the best Prime Day deals, but if you’re just interested in Amazon devices, this is where you’ll find the ones that are actually worthwhile. From Alexa-based Echo smart speakers to video doorbells, Amazon is discounting a wide range of gadgets, some of which are currently seeing their lowest prices to date.     Of course, the main caveat here is that you’ll have to be an active Amazon Prime member to take advantage of any and all Prime Day deals. Luckily, Amazon makes it pretty easy to sign up, especially since new members can take advantage of the exclusive discounts with a free 30-day trial.   The best streaming device and TV deals     If you’re... Continue reading…",
+        "link": "https://www.theverge.com/24186875/amazon-prime-day-device-deals-echo-speakers-kindles-fire-tv-streaming-sticks-sale-2024"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "Where are floppy disks today? Planes, trains, and all these other places",
-        "pubDate": "Wed, 15 May 2024 21:19:36 +0000",
-        "description": "No, really! Floppy drives still live on in many surprising places, and not just the homes of die-hard techies.",
-        "link": "https://www.zdnet.com/article/where-are-floppy-disks-today-planes-trains-and-all-these-other-places/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " iOS 17.5 is reportedly resurfacing once deleted photos for some users ",
-        "pubDate": "Wed, 15 May 2024 21:15:00 +0000",
-        "description": "A new iPhone bug is reportedly resurfacing images for some users.",
-        "link": "https://www.techradar.com/computing/software/ios-175-is-reportedly-resurfacing-once-deleted-photos-for-some-users"
+        "title": "40 of the best Prime Day impulse buys you don't want to miss",
+        "pubDate": "Wed, 17 Jul 2024 15:06:00 +0000",
+        "description": "Get ready to dive into day two of Amazon Prime Day deals, with a raft of impulse buys and random odds-and-ends tech deals that will have you reaching for your wallet.",
+        "link": "https://www.zdnet.com/home-and-office/best-prime-day-impulse-buy-deals-2024-07-17/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "These earbuds sound way too good for their price point. And that's not even their best feature",
-        "pubDate": "Wed, 15 May 2024 21:14:00 +0000",
-        "description": "The new Sennheiser Accentum True Wireless earbuds have audiophile-grade sound that sounds lush and premium, but at a mid-range price point. Plus, they're actually (no, seriously) comfortable to wear.",
-        "link": "https://www.zdnet.com/article/these-earbuds-sound-way-too-good-for-their-price-point-and-thats-not-even-their-best-feature/#ftag=RSSbaffb68"
+        "title": "The 42 best Prime Day 2024 Nintendo Switch deals",
+        "pubDate": "Wed, 17 Jul 2024 15:02:00 +0000",
+        "description": "It's day two of Amazon Prime Day 2024 is in full swing, and Amazon, Best Buy, and Walmart are offering great discounts on Nintendo Switch consoles, games, and accessories right now.",
+        "link": "https://www.zdnet.com/home-and-office/home-entertainment/best-prime-day-nintendo-switch-deals-2024-07-17/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "The Verge -  All Posts",
-        "title": "Arizona accuses Amazon of being a monopoly and deceiving consumers with ‘dark patterns’",
-        "pubDate": "2024-05-15T21:08:56Z",
-        "description": "Illustration by Alex Castro / The Verge          Arizona Attorney General Kris Mayes filed two new lawsuits against Amazon on Wednesday, bringing similar complaints to those the company is already facing from the Federal Trade Commission. Both of the lawsuits are brought under Arizona’s own state statutes in the Superior Court of Arizona. One of the lawsuits accuses Amazon of engaging in deceptive business practices that violate the state’s Consumer Fraud Act by allegedly using design tricks known as dark patterns to keep users from canceling their Amazon Prime subscriptions. This is similar to a lawsuit the FTC filed against the company in June. The other lawsuit accuses Amazon of breaking Arizona’s Uniform State Antitrust Act by unfairly maintaining monopoly status by enforcing... Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157542/arizona-amazon-sues-deceptive-practices-antitrust-prime-buy-box"
+        "title": "Microsoft’s Designer app arrives on iOS and Android with AI editing and creation",
+        "pubDate": "2024-07-17T15:00:00Z",
+        "description": "Image: Microsoft          Microsoft’s AI-powered Designer app is coming out of preview today for both iOS and Android users. Microsoft Designer lets you use templates to create custom images, stickers, greeting cards, invitations, and more. Designer can also use AI to edit images and restyle them or create collages of images. Originally available on the web or through Microsoft Edge, Designer has been in preview for nearly a year. It’s now generally available to anyone with a personal Microsoft account and as a free app for Windows, iOS, and Android. The mobile app includes the ability to create images and edit them on the go. Image: Microsoft       The Microsoft Designer editor view.    Microsoft Designer includes the usual text prompt for... Continue reading…",
+        "link": "https://www.theverge.com/2024/7/17/24200294/microsoft-designer-app-launch-windows-ios-android-features"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Cadillac is giving its gas-powered Escalade an EV glow-up",
+        "pubDate": "2024-07-17T15:00:00Z",
+        "description": "Image: Cadillac          The Cadillac Escalade IQ, the electric version of the automaker’s yacht-sized luxury SUV, won’t be out until later this year, so in the meantime, the automaker is hoping to whet appetites by giving the gas-powered version an EV makeover. Starting the front grille, the new 2025 Escalade will have new vertically positioned headlights inspired by the Cadillac Lyriq and Celestiq, as well as an illuminated Cadillac badge in the center. And on the V-series, Premium Luxury, and Platinum trims, there is also an LED border that outlines the grille — which also calls to mind the illuminated grilles of Cadillac’s EV lineup. Moving inside, the interior has been totally redesigned to give over a lot more real estate to screens. The Escalade will now... Continue reading…",
+        "link": "https://www.theverge.com/2024/7/17/24198989/cadillac-escalade-refresh-2025-screen-ev-power-doors"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "Android 15 unveiled: Here are 8 exciting (or handy) features coming to your phone",
-        "pubDate": "Wed, 15 May 2024 21:00:00 +0000",
-        "description": "At I/O 2024, Google introduced more Android 15 features to the world. Here's what Android fans have to look forward to.",
-        "link": "https://www.zdnet.com/article/android-15-unveiled-here-are-8-new-exciting-features-coming-to-your-phone/#ftag=RSSbaffb68"
+        "title": "You can trade in old electronics for Amazon gift cards. Here's how it works",
+        "pubDate": "Wed, 17 Jul 2024 15:00:00 +0000",
+        "description": "In time for Prime Day, follow these steps to turn your unused gadgets and gizmos into Amazon gift cards.",
+        "link": "https://www.zdnet.com/article/you-can-trade-in-old-electronics-for-amazon-gift-cards-heres-how-it-works/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "The Verge -  All Posts",
-        "title": "Android 15’s second beta release lets users lock down access to private apps",
-        "pubDate": "2024-05-15T20:59:37Z",
-        "description": "Image: Google          Alongside Google’s ongoing developer-focused I/O conference comes the latest release of Android 15, which is now in its second beta. It’s got some cool new features, like the ability to now hide a collection of apps inside a “private space,” customizable vibrations so you can notice different types of notifications just by feeling, and also richer widget previews. The new private space function is the most interesting of the bunch: it can hide apps you don’t want others seeing into a biometric or PIN-protected container in the app drawer. It’s one of several new security features coming to Android.                   GIF: Google       Accessing a private space.     Private space leverages Android’s user profiles, so apps that you put in a... Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157574/android-15-beta-2-release-private-space-rich-widgets"
+        "title": "The best Prime Day gaming deals",
+        "pubDate": "2024-07-17T14:59:04Z",
+        "description": "You can get a refurbished Xbox Series X for well under $400 today — if you don’t mind buying refurbished. | Photo by Vjeran Pavic / The Verge          If you’ve worked hard this year, you deserve to play even harder, and you can do that on a modest budget with some of the Prime Day gaming deals available right now. Amazon’s Prime Day 2024 sale runs through the end of today, July 17th, offering plenty of discounts on video games, controllers, headsets, storage, and other gear and accessories to level up your experience.   We’re seeing new all-time low prices on some of the top games that have been released over the past couple of years. There’s a healthy assortment of titles to consider, whether you’re playing on PlayStation 5, Nintendo Switch, or Xbox Series X / S. There’s also quite a few deals for actual hardware, too — though no consoles apart from the Meta Quest 3 as of now. We’ll... Continue reading…",
+        "link": "https://www.theverge.com/24198226/amazon-prime-day-2024-best-gaming-deals-controller-headset-accessories"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "Generative AI can transform customer experiences. But only if you focus on other areas first",
-        "pubDate": "Wed, 15 May 2024 20:49:15 +0000",
-        "description": "AI can help staff focus on the most important customer concerns, so long as the business has a tight grip on its data.",
-        "link": "https://www.zdnet.com/article/generative-ai-can-transform-customer-experiences-but-only-if-you-focus-on-other-areas-first/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "AI Program Aims to Break Barriers for Female Students",
-        "pubDate": "Wed, 15 May 2024 20:38:13 +0000",
-        "description": "A new program, backed by Cornell Tech, M.I.T. and U.C.L.A., helps prepare lower-income, Latina and Black female computing majors for artificial intelligence careers.",
-        "link": "https://www.nytimes.com/2024/05/15/technology/ai-internships-female-students-cornell-mit-ucla.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "Microsoft’s AI obsession is jeopardizing its climate ambitions        ",
-        "pubDate": "2024-05-15T20:29:27Z",
-        "description": "Microsoft CEO Satya Nadella delivers a speech during an event called Microsoft Build: AI Day in Kuala Lumpur, Malaysia, on May 2nd, 2024. | Photo by MOHD RASFAN / AFP via Getty Images          Microsoft’s producing a lot more planet-heating pollution now than it did when it made a bold climate pledge back in 2020. Its greenhouse gas emissions were actually around 30 percent higher in fiscal year 2023, showing how hard it could be for the company to meet climate goals as it simultaneously races to be a leader in AI.  Training and running AI models is an increasingly energy-hungry endeavor, and the impact that’s having on the climate is just starting to come into view. Microsoft’s latest sustainability report is a good case study in the conundrum facing big tech companies that made a slew of climate pledges in recent years but could wind up polluting more as they turn their focus to AI. “In many ways the moon is five times as... Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157496/microsoft-ai-carbon-footprint-greenhouse-gas-emissions-grow-climate-pledge"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " Apple's next accessibility features let you control your iPhone and iPad with just your eyes ",
-        "pubDate": "Wed, 15 May 2024 20:26:43 +0000",
-        "description": "Ahead of Global Accessibility Awareness Day, Apple is previewing new features like eye-tracking, vocal shortcuts, and music haptics that will arrive later this year.",
-        "link": "https://www.techradar.com/computing/software/apples-next-accessibility-features-let-you-control-your-iphone-and-ipad-with-just-your-eyes"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "AT&T cuts a deal to launch satellite-to-smartphone service soon",
-        "pubDate": "2024-05-15T20:20:41Z",
-        "description": "Illustration: The Verge          AST SpaceMobile has ramped up demonstrations of voice calls, texts, and video calls via satellite over the last year, using 4G LTE and 5G connections with download bandwidth reaching 14Mbps. Now the company says that a previous memorandum of understanding with AT&T to work on a space-based broadband network for phones has become a “definitive commercial agreement,” just in time for AST’s first five commercial satellites to launch this summer. The FCC has gotten things rolling on a framework (PDF) for companies interested in building these types of services, with the idea of what Chairwoman Jessica Rosenworcel called a single network future. “We won’t need to think about what network, where, and what services are available. Connections... Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157607/att-ast-spacemobile-satellite-cellular-network"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "Best iPad to Buy (and Some to Avoid) in 2024",
-        "pubDate": "Wed, 15 May 2024 20:17:51 +0000",
-        "description": "New iPads are here. We break down Apple’s current lineup to help you figure out which one of Apple's tablets is best for you.",
-        "link": "https://www.wired.com/gallery/the-best-ipad/"
+        "title": "The 18 best Prime Day Samsung phone deals",
+        "pubDate": "Wed, 17 Jul 2024 14:55:00 +0000",
+        "description": "The second day of Amazon Prime Day is here, and you can take advantage of deals on Samsung products, including Galaxy phones, TVs, and smart home gadgets.",
+        "link": "https://www.zdnet.com/home-and-office/best-amazon-prime-day-samsung-phone-deals-2024-07-17/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "The best 85-inch TVs of 2024: Expert tested and reviewed",
-        "pubDate": "Wed, 15 May 2024 20:07:40 +0000",
-        "description": "We tested the best 85-inch TVs with bright screens, OLED panels, and 4K resolution from LG, Samsung, and Sony to help you choose the right one.",
-        "link": "https://www.zdnet.com/home-and-office/home-entertainment/best-85-inch-tv/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "Microsoft announces the Proteus Controller, a gamepad for Xbox gamers with disabilities",
-        "pubDate": "2024-05-15T19:57:59Z",
-        "description": "Image: ByoWave          On Wednesday, Microsoft announced the Proteus Controller, a $299 modular video game controller kit that lets Xbox gamers with disabilities customize their controllers.  Created by peripheral company ByoWave as part of the Designed for Xbox program, the wireless controller consists of small cubes with interchangeable faceplates that include controller buttons, a directional pad, and analog sticks.  The “snap and play” parts connect together so gamers can build more than 100 configurations and LED lighting variations. As a result, one-handed gamers and other players with disabilities can use the controller in a way that’s most comfortable for them. The buttons are also remappable for a more individualized experience, albeit only via the... Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157529/microsoft-proteus-controller-xbox-accessibility"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "Prepare to Get Manipulated by Emotionally Expressive Chatbots",
-        "pubDate": "Wed, 15 May 2024 19:56:27 +0000",
-        "description": "The emotional mimicry of OpenAI’s new version of ChatGPT could lead AI assistants in some strange—even dangerous—directions.",
-        "link": "https://www.wired.com/story/prepare-to-get-manipulated-by-emotionally-expressive-chatbots/"
+        "title": "The 109 best Prime Day 2024 gaming deals",
+        "pubDate": "Wed, 17 Jul 2024 14:52:00 +0000",
+        "description": "Day 2 of Amazon's annual Prime Day sale is well underway, and you can find great deals on gaming consoles, PCs and laptops, accessories, and even games themselves. Hurry before these deals disappear -- Prime Day ends tonight at midnight.",
+        "link": "https://www.zdnet.com/home-and-office/home-entertainment/best-amazon-prime-day-gaming-deals-2024-07-17/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "The best VPN services of 2024: Expert tested and reviewed",
-        "pubDate": "Wed, 15 May 2024 19:50:46 +0000",
-        "description": "We tested the best VPNs available and ranked them based on speed, security, and features, for all of your private browsing and streaming needs.",
-        "link": "https://www.zdnet.com/article/best-vpn/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "Here are the best Apple Watch deals right now",
-        "pubDate": "2024-05-15T19:43:07Z",
-        "description": "The entry-level Apple Watch SE is a gateway smartwatch if there ever was one. | Photo by Amelia Holowaty Krales / The Verge          In September, Apple launched its latest batch of smartwatches, introducing the Apple Watch Ultra 2 ($799) alongside the Apple Watch Series 9 ($399). Each wearable has its own pros and cons, as does the second-gen Apple Watch SE ($249), but the introduction of the new wearables also means there are now more Apple Watch models on the market than ever before — and a lot more deals to be had.    But with all of those options, which one should you pick? Generally speaking, you want to buy the newest watch you can afford so that it continues to receive software updates from Apple. The latest update, watchOS 10, launched in September on the Apple Watch Series 4 and newer, though no one can say with certainty whether the Series 4 will get the next... Continue reading…",
-        "link": "https://www.theverge.com/21289209/best-apple-watch-deals"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Netflix and the N.F.L. Sign a Three-Season Deal",
-        "pubDate": "Wed, 15 May 2024 19:42:28 +0000",
-        "description": "Football joins pro wrestling and comedy specials in an expansion of the streaming service’s live offerings, a key step in the company’s overall live TV strategy.",
-        "link": "https://www.nytimes.com/2024/05/15/business/media/netflix-nfl-live.html"
+        "title": "I love this DeWalt cordless drill and impact driver set, and it's 42% off for Prime Day",
+        "pubDate": "Wed, 17 Jul 2024 14:49:12 +0000",
+        "description": "Save $100 on this DeWalt power tool kit in this Amazon Prime Day deal before it disappears.",
+        "link": "https://www.zdnet.com/home-and-office/i-love-this-dewalt-cordless-drill-and-impact-driver-set-and-its-42-off-for-prime-day/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "New in Android, Project Gameface lets you navigate your phone hands-free",
-        "pubDate": "Wed, 15 May 2024 19:30:21 +0000",
-        "description": "Developed for gaming, Google's tool is coming to Android 15 to help make everyday life more accessible.",
-        "link": "https://www.zdnet.com/article/new-in-android-project-gameface-lets-you-navigate-your-phone-hands-free/#ftag=RSSbaffb68"
+        "title": "The Oura Ring is finally on sale through Prime Day (and that rarely happens)",
+        "pubDate": "Wed, 17 Jul 2024 14:47:20 +0000",
+        "description": "The Horizon Oura Ring is up $67 off during Prime Day, a rare discount on a product that rarely goes on sale.",
+        "link": "https://www.zdnet.com/article/oura-ring-prime-day-sale-07-17-2024/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "The Suunto Race sports watch does it all, but its beefy display comes in first place",
-        "pubDate": "Wed, 15 May 2024 19:17:00 +0000",
-        "description": "Suunto's new Race sports watch has a gorgeous AMOLED display and all the fitness metrics you could ask for. But one feature skipped a beat.",
-        "link": "https://www.zdnet.com/article/the-suunto-race-sports-watch-does-it-all-but-its-beefy-display-comes-in-first-place/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "This small Bluetooth speaker is secretly a powerhouse with room-shaking audio",
-        "pubDate": "Wed, 15 May 2024 19:16:00 +0000",
-        "description": "The Tribit XSound Plus 2 may look unassuming, but its companion app makes it sound like a speaker twice the price.",
-        "link": "https://www.zdnet.com/home-and-office/home-entertainment/tribit-has-another-hit-on-its-hands-with-the-xsound-plus-2-bluetooth-speaker/#ftag=RSSbaffb68"
+        "title": "This Oura Ring rival is $55 off during Prime Day -- no subscription necessary",
+        "pubDate": "Wed, 17 Jul 2024 14:46:35 +0000",
+        "description": "The Ultrahuman Ring Air is a subscription-free smart ring that rivals the Oura Ring, and it's less than $300 on the second day of Prime Day.",
+        "link": "https://www.zdnet.com/article/ultrahuman-ring-air-amazon-prime-day-deal-07-17-2024/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "The Verge -  All Posts",
-        "title": "Netflix renews 3 Body Problem for second season",
-        "pubDate": "2024-05-15T19:15:06Z",
-        "description": "Image: Netflix          3 Body Problem is getting a second season. Netflix announced the news that its adaptation of Cixin Liu’s award-winning sci-fi trilogy is getting more episodes, with David Benioff, D.B. Weiss, and Alexander Woo returning as executive producers and writers. 3 Body Problem follows a group of scientists as they struggle with the realization that humanity isn’t the only species in the universe and that its nearest neighbors are far more technologically advanced and very mean. It stars an ensemble cast featuring Liam Cunningham, Rosalind Chao, Zine Tseng, and Benedict Wong. Though the 3 Body Problem book trilogy spans several centuries, through cryogenic shenanigans, most characters from the present-day timeline should remain throughout the... Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157514/3-body-problem-season-2-renewal-netflix"
+        "title": "The UK will start feeding lab-grown meat to pets this year",
+        "pubDate": "2024-07-17T14:43:39Z",
+        "description": "Image: Meatly          The UK is now the first European country to green-light the sale of lab-grown meat, but with pets instead of human consumers as its first guinea pigs.  The UK’s Animal and Plant Health Agency and the Department for Environment, Food & Rural Affairs granted London-based startup Meatly regulatory approval to produce lab-grown pet food, which described the clearance as a “huge leap forward for the cultivated meat industry.” “Pet parents are crying out for a better way to feed their cats and dogs meat,” Meatly CEO Owen Ensor said in a statement, pitching that the company’s cultivated pet food would allow them to do so “in a way that is kinder to our planet and other animals.”  Meatly says it plans to launch commercial samples of its first... Continue reading…",
+        "link": "https://www.theverge.com/2024/7/17/24200412/uk-lab-grown-cultivated-meat-pet-food-approval-meatly"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The Fitbit Charge 6 Is a Deal at Just $100 Right Now",
+        "pubDate": "Wed, 17 Jul 2024 14:31:00 +0000",
+        "description": "The best fitness tracker you can buy—at its best price. Can we get a W in the chat?",
+        "link": "https://www.wired.com/story/fitbit-charge-6-prime-day-deal/"
       },
       {
         "category": "technology",
         "website": "The Verge -  All Posts",
-        "title": "Netflix’s ad tier hits 40 million users",
-        "pubDate": "2024-05-15T19:15:00Z",
-        "description": "Illustration by Nick Barclay / The Verge          Netflix’s expansion into an ad-supported model seems to be a hit. Today, at its 2024 upfront presentation, the streamer said that it now has 40 million monthly users on its ad-supported tier globally. That’s up from 23 million earlier in the year; it took six months for the option to hit 5 million users after it launched in 2022. As of April, the service had a total of 270 million subscribers across all tiers. Netflix also said that, in regions where ads are available, more than 40 percent of new users are signing up for the ad-supported tier.   As part of announcing the milestone, Netflix revealed that it’s planning to launch “an in-house advertising technology platform.” In a statement, Netflix’s president of advertising, Amy Reinhard,... Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157487/netflixs-ad-tier-40-million-subscribers"
+        "title": "The best Apple deals available for Amazon Prime Day 2024 ",
+        "pubDate": "2024-07-17T14:30:30Z",
+        "description": "The latest iPad is down to an all-time low price. | Photo by Dan Seifert / The Verge          Thanks to Amazon Prime Day, you don’t need to wait until Black Friday this year to save big on Apple gadgets. Despite being an Amazon event, some of the best deals surprisingly include popular Apple products, ranging from the high-end latest AirPods Pro to the entry-level third-gen AirPods — both of which have new all-time low prices.    It’s not just AirPods that are receiving steep discounts, though, but also the Apple Watch Series 9, the latest iPad, and other excellent Apple devices. Below, we’ve rounded up the cream of the crop to make diving through the deals easier. If you’re interested in deals outside of the Apple ecosystem, check out our main Prime Day roundup so you can save even more. The best AirPods deals    Normally $549.99,...     Continue reading…",
+        "link": "https://www.theverge.com/24196778/amazon-prime-day-apple-deals-airpods-watch-ipad-macbook-2024"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "6 Best Amazon Prime Day Coffee Deals",
+        "pubDate": "Wed, 17 Jul 2024 14:18:07 +0000",
+        "description": "Get wired with these piping-hot Prime Day coffee deals on espresso machines, grinders, and coffee beans.",
+        "link": "https://www.wired.com/story/prime-day-coffee-deals-2024-1/"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "How Trump’s Running Mate J.D. Vance is Connected to Silicon Valley",
+        "pubDate": "Wed, 17 Jul 2024 14:13:10 +0000",
+        "description": "Mr. Vance spent less than five years in Silicon Valley’s tech industry, but the connections he made with Peter Thiel and others became crucial to his political ascent.",
+        "link": "https://www.nytimes.com/2024/07/17/technology/jd-vance-tech-silicon-valley.html"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " LG's new super-bright OLED panel could give the next Meta Quest an edge over the Apple Vision Pro ",
-        "pubDate": "Wed, 15 May 2024 19:00:29 +0000",
-        "description": "LG's new OLEDoS panel boasts some superb specs that should help a future Meta Quest VR headset unbeatable visuals.",
-        "link": "https://www.techradar.com/computing/virtual-reality-augmented-reality/lgs-new-super-bright-oled-panel-could-give-the-next-meta-quest-an-edge-over-the-apple-vision-pro"
+        "title": " Windows 11 24H2 update may not turn up until late in the year – and given how many plates Microsoft is spinning, that wouldn’t surprise us ",
+        "pubDate": "Wed, 17 Jul 2024 14:11:57 +0000",
+        "description": "Can’t wait for the big 24H2 update? Well, you might have to, and we can readily believe the upgrade could be delayed.",
+        "link": "https://www.techradar.com/computing/windows/windows-11-24h2-update-may-not-turn-up-until-late-in-the-year-and-given-how-many-plates-microsoft-is-spinning-that-wouldnt-surprise-us"
       },
       {
         "category": "technology",
         "website": "The Verge -  All Posts",
-        "title": "PPSSPP brings PSP emulation to the iPhone",
-        "pubDate": "2024-05-15T18:42:48Z",
-        "description": "Screenshot: PPSSPP          It’s the PlayStation Portable’s turn to get an emulator on the iOS App Store thanks to PPSSPP, which just went live today. This emulator, from developer Henrik Rydgård, has been in development for more than a decade, and it’s free to download for the iPhone and iPad. Rydgård says in a blog post that the version approved this morning has some limitations versus previous builds of the app that were available through various exploits and workarounds. The biggest is that Apple doesn’t allow Just-in-Time recompilers that retranslate code for the OS and can lead to smoother performance. (It’s why we might never see a GameCube / Wii emulator.) “Fortunately,” he writes, “iOS devices are generally fast enough” for almost all PSP games. Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157286/ppsspp-playstation-portable-psp-emulator-ios-app-store-iphone-ipad-apple"
+        "title": "OpenAI CEO Sam Altman’s $27 million mansion is a ‘lemon’ with a leaky pool, lawsuit alleges",
+        "pubDate": "2024-07-17T14:11:01Z",
+        "description": "Image: Cath Virginia / The Verge; Getty Images          Sam Altman’s $27 million San Francisco luxury abode is apparently plagued with issues, ranging from a leaky infinity pool to faulty piping that dumped raw sewage on the property. That’s according to a lawsuit that The San Francisco Standard linked to the OpenAI CEO’s residence, which claims Altman purchased a “lemon” with “pervasive shoddy workmanship and corner-cutting.” The 9,500-square-foot estate is situated on San Francisco’s iconic Lombard Street, where it overlooks the city and the bay. As you can see in this walkthrough of the home, some of its key features include a four-sided infinity pool that hangs off the edge of the house, a “Batcave” leading into a garage, as well as a system that uses recycled rainwater to irrigate an... Continue reading…",
+        "link": "https://www.theverge.com/2024/7/17/24200354/sam-altman-san-francisco-mansion-lawsuit-lemon-openai"
       },
       {
         "category": "technology",
         "website": "The Verge -  All Posts",
-        "title": "RetroArch brings its free multisystem emulation to the iOS App Store",
-        "pubDate": "2024-05-15T18:31:28Z",
-        "description": "Is this the best use of RetroArch? | Screenshot: RetroArch          Another emulator with tons of history and development, RetroArch, is now freely available on the iOS App Store today. This is great news for retro gaming fans with iPhones because it can emulate a truly eye-crossing number of retro consoles once installed. In fact, there are too many to list here. But some notable emulation cores — the actual separately developed emulation software — included in this version of RetroArch are the NEC PC Engine, Nintendo DS, Game Boy Advance, Virtual Boy, Neo Geo Pocket, and even the PSP (using the same core that drives the PPSSPP app that went up today). You can see the list in full by clicking “more” on RetroArch’s description in its App Store listing. Screen recording: RetroArch       J...    Continue reading…",
-        "link": "https://www.theverge.com/2024/5/15/24157472/retroarch-emulator-ios-app-store-iphone-nintendo-sega-playstation-atari"
+        "title": "Home Depot’s viral giant skeleton has some upgrades — and lots of new friends",
+        "pubDate": "2024-07-17T14:02:53Z",
+        "description": "Image: Home Depot          Five years ago, Home Depot stumbled upon a viral hit with a 12-foot-tall skeleton nicknamed Skelly. The towering Halloween decoration can be seen year-round in some neighborhoods, has been featured in countless memes and TikToks, and remains a hot ticket — it went back on sale in April and promptly sold out. Now the company is bringing back a slightly refreshed version of the skeleton as part of a huge lineup of Halloween creatures packed with LEDs and animatronics, as it looks to keep its undead hit alive. Skelly remains the centerpiece. The skeleton is going back on sale with a slight tweak: now those creepy LED eyes are customizable, with eight different presets so you can keep Skelly in style for multiple holidays. One of the options... Continue reading…",
+        "link": "https://www.theverge.com/2024/7/17/24199821/home-depot-halloween-2024-skelly-skeleton"
       },
       {
         "category": "technology",
-        "website": "The Hacker News",
-        "title": "FBI Seizes BreachForums Again, Urges Users to Report Criminal Activity",
-        "pubDate": "Wed, 15 May 2024 23:22:00 +0530",
-        "description": "Law enforcement agencies have officially seized control of the notorious BreachForums platform, an online bazaar known for peddling stolen data, for the second time within a year. The website (\"breachforums[.]st\") has been replaced by a seizure banner stating the clearnet cybercrime forum is under the control of the Federal Bureau of Investigation (FBI).  The operation is the",
-        "link": "https://thehackernews.com/2024/05/fbi-seizes-breachforums-again-urges.html"
+        "website": "The Verge -  All Posts",
+        "title": "The best Prime Day deals on smart home gear",
+        "pubDate": "2024-07-17T14:00:00Z",
+        "description": "The Blink Video Doorbell is down to $30 for Prime Day. | Photo by Jennifer Pattison Tuohy / The Verge          Amazon’s Prime Day 2024 runs from Tuesday, July 16th, through Wednesday, July 17th, and is an excellent way to stock up on smart home gear. I spent hours sifting through the best deals to bring you my picks for the best buys. Grab some serious bargains on robot vacuums, smart kitchen gadgets, and lots of smart plugs. Plus, smart lighting favorites Philips Hue and Lutron Caséta have some select savings on their popular products. Read on for all the latest deals, and be sure to check back, as I’ll keep this updated throughout the sale.    Best deals on Amazon Echo devices Several of my favorite Echo smart speakers and displays are on sale this Prime Day. If you’re looking for good sound and a smart home hub that adds support for T...  Continue reading…",
+        "link": "https://www.theverge.com/2024/7/16/24199019/amazon-prime-day-best-smart-home-deals-robot-vacuums-video-doorbells-smart-bulbs"
       },
       {
         "category": "technology",
         "website": "Wired",
-        "title": "Saunas Are the Next Frontier in Fighting Depression",
-        "pubDate": "Wed, 15 May 2024 17:48:03 +0000",
-        "description": "The preliminary results of a clinical trial of using heat exposure to combat depression are in—and are fueling cautious optimism that sauna practice could become an accepted treatment.",
-        "link": "https://www.wired.com/story/sauna-heat-therapy-depression-cbt-mental-health-trial/"
+        "title": "WIRED's Top Prime Day Deals on Wires, Cords, and Cables So You Can Stay Wired Forever (2024)",
+        "pubDate": "Wed, 17 Jul 2024 13:53:05 +0000",
+        "description": "The humble cable is a necessity for our tech gadgets, and these Prime Day deals will keep you wired.",
+        "link": "https://www.wired.com/story/amazon-prime-day-cables-deals-2024/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The New UK Government Wants Clean Energy, Sustainable Aviation Fuel, and Public Transport Reform",
+        "pubDate": "Wed, 17 Jul 2024 13:10:36 +0000",
+        "description": "Legislation in coming years will set up a publicly owned clean power company and leverage the Crown Estate for investment in green infrastructure.",
+        "link": "https://www.wired.com/story/kings-speech-starmer-labour-climate-environment-policy/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "Best Prime Day Toy Deals on Board Games and Legos (2024)",
+        "pubDate": "Wed, 17 Jul 2024 12:57:25 +0000",
+        "description": "Play around with these Amazon Prime Day deals on some of our favorite toys and board games.",
+        "link": "https://www.wired.com/story/amazon-prime-day-toy-game-deals-1/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The Race for Space-Based Solar Power",
+        "pubDate": "Wed, 17 Jul 2024 12:00:00 +0000",
+        "description": "Once a sci-fi staple, the ability to beam solar power from space now seems closer than ever—but a lot of work remains.",
+        "link": "https://www.wired.com/story/sun-based-solar-power-esa-energy/"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Good news for Mac users wanting to run Windows apps: VMware Fusion Pro 13 is now free for personal use ",
-        "pubDate": "Wed, 15 May 2024 17:33:18 +0000",
-        "description": "VMware has waived its $200 fee for the Fusion Pro 13 app on macOS which emulates Windows.",
-        "link": "https://www.techradar.com/computing/mac-os/good-news-for-mac-users-wanting-to-run-windows-apps-vmware-fusion-pro-13-is-now-free-for-personal-use"
+        "title": " Intel raising power safeguard for next-gen Arrow Lake CPUs has rung alarm bells for some – but we’re hopeful it’s a positive sign ",
+        "pubDate": "Wed, 17 Jul 2024 11:56:34 +0000",
+        "description": "Will Intel’s next-gen processors put Core i9 stability issues firmly in the rearview mirror?",
+        "link": "https://www.techradar.com/computing/cpu/intel-raising-power-safeguard-for-next-gen-arrow-lake-cpus-has-rung-alarm-bells-for-some-but-were-hopeful-its-a-positive-sign"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The Best Prime Day Gaming Deals You Don't Want to Miss (2024)",
+        "pubDate": "Wed, 17 Jul 2024 11:54:33 +0000",
+        "description": "Amazon’s Prime Day event is packed with deals for gamers on everything from OLED gaming monitors to gaming keyboards and controllers. Oh, and games too!",
+        "link": "https://www.wired.com/story/amazon-prime-day-gaming-deals-2024/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The Paris Olympics Will Show Us the Future of Sports on TV",
+        "pubDate": "Wed, 17 Jul 2024 11:30:00 +0000",
+        "description": "This summer’s Games are going to look bigger and better and louder than ever, thanks to key innovations in the broadcast booth and in the cloud.",
+        "link": "https://www.wired.com/story/paris-olympics-broadcast-tech-ai/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The Top 5 Prime Day Kindle Deals—Plus More Amazon Devices (2024)",
+        "pubDate": "Wed, 17 Jul 2024 11:10:44 +0000",
+        "description": "Amazon's shopping holiday is the best time to buy some of the brand's devices that we love.",
+        "link": "https://www.wired.com/story/prime-day-kindle-amazon-device-deals-2024-1/"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Navigating Insider Risks: Are your Employees Enabling External Threats?",
+        "pubDate": "Wed, 17 Jul 2024 16:39:00 +0530",
+        "description": "Attacks on your network are often meticulously planned operations launched by sophisticated threats. Sometimes your technical fortifications provide a formidable challenge, and the attack requires assistance from the inside to succeed. For example, in 2022, the FBI issued a warning1 that SIM swap attacks are growing: gain control of the phone and earn a gateway to email, bank accounts, stocks,",
+        "link": "https://thehackernews.com/2024/07/navigating-insider-risks-are-your.html"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "RealPage Says Rental Pricing Tech Is Misunderstood, but Landlords Aren’t So Sure",
+        "pubDate": "Wed, 17 Jul 2024 11:01:50 +0000",
+        "description": "The software company has pushed back hard against claims that its algorithms helped make rent in the US too damn high. Property owners and managers aren't entirely convinced.",
+        "link": "https://www.wired.com/story/realpage-says-rental-pricing-tech-is-misunderstood-but-landlords-arent-so-sure/"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Firefox 126 is out – and it’ll make a huge difference to the quality of videos in the browser, for those with the right hardware ",
-        "pubDate": "Wed, 15 May 2024 17:11:34 +0000",
-        "description": "You’re going to want to grab the new browser as it could supercharge your video viewing experience.",
-        "link": "https://www.techradar.com/computing/firefox/firefox-126-is-out-and-itll-make-a-huge-difference-to-the-quality-of-videos-in-the-browser-for-those-with-the-right-hardware"
+        "title": " The Meta Quest 3’s Netflix app has been shut for good – but the alternative is better than it ever was ",
+        "pubDate": "Wed, 17 Jul 2024 10:46:09 +0000",
+        "description": "Netflix's Meta Quest browser experience is better than the app ever was, but it's still a flawed system.",
+        "link": "https://www.techradar.com/computing/virtual-reality-augmented-reality/the-meta-quest-3s-netflix-app-has-been-shut-for-good-but-the-alternative-is-better-than-it-ever-was"
       },
       {
         "category": "technology",
         "website": "The Hacker News",
-        "title": "Google Launches AI-Powered Theft and Data Protection Features for Android Devices",
-        "pubDate": "Wed, 15 May 2024 22:30:00 +0530",
-        "description": "Google has announced a slew of privacy and security features in Android, including a suite of advanced protection features to help secure users' devices and data in the event of a theft. These features aim to help protect data before, during and after a theft attempt, the tech giant said, adding they are expected to be available via an update to Google Play services for devices running",
-        "link": "https://thehackernews.com/2024/05/google-adds-ai-powered-theft-protection.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Android 15 Rolls Out Advanced Features to Protect Users from Scams and Malicious Apps",
-        "pubDate": "Wed, 15 May 2024 22:30:00 +0530",
-        "description": "Google is unveiling a set of new features in Android 15 to prevent malicious apps installed on the device from capturing sensitive data. This constitutes an update to the Play Integrity API that third-party app developers can take advantage of to secure their applications against malware. \"Developers can check if there are other apps running that could be capturing the screen, creating",
-        "link": "https://thehackernews.com/2024/05/android-15-introduces-new-features-to.html"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "Android Update: Theft Detection Lock Knows When Your Phone Is Stolen",
-        "pubDate": "Wed, 15 May 2024 17:00:00 +0000",
-        "description": "Google is introducing new AI-powered safety tools in Android 15 that can lock down your phone if thieves nab it.",
-        "link": "https://www.wired.com/story/android-15-theft-detection-lock/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "All the New Features Coming to Android Phones, Watches, and TVs This Year",
-        "pubDate": "Wed, 15 May 2024 17:00:00 +0000",
-        "description": "At I/O, Google showed off new features in Android 15, the latest version of Wear OS, improvements to Google TV, and more.",
-        "link": "https://www.wired.com/story/google-io-android-ecosystem-updates-new-features/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "15 Top New Android 15 Features (2024): How to Install, Features, Release Date",
-        "pubDate": "Wed, 15 May 2024 17:00:00 +0000",
-        "description": "Android 15 is creeping closer to its release date. Here are the notable features and upgrades Google has in store.",
-        "link": "https://www.wired.com/story/how-to-download-android-15-and-features/"
+        "title": "FIN7 Group Advertises Security-Bypassing Tool on Dark Web Forums",
+        "pubDate": "Wed, 17 Jul 2024 16:03:00 +0530",
+        "description": "The financially motivated threat actor known as FIN7 has been observed using multiple pseudonyms across several underground forums to likely advertise a tool known to be used by ransomware groups like Black Basta. \"AvNeutralizer (aka AuKill), a highly specialized tool developed by FIN7 to tamper with security solutions, has been marketed in the criminal underground and used by multiple",
+        "link": "https://thehackernews.com/2024/07/fin7-group-advertises-security.html"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " PC gaming on an Android device? Fallout 4 has been shown running decently fast in an exciting hint of the future ",
-        "pubDate": "Wed, 15 May 2024 16:24:58 +0000",
-        "description": "Winlator emulator is now able to run demanding software such as Fallout 4 at 30 fps on Android.",
-        "link": "https://www.techradar.com/computing/pc-gaming-on-an-android-device-fallout-4-has-been-shown-running-decently-fast-in-an-exciting-hint-of-the-future"
+        "title": " Believe it or not, AMD has already begun work on Zen 7 CPUs that are three generations into the future ",
+        "pubDate": "Wed, 17 Jul 2024 09:45:32 +0000",
+        "description": "Excited about Ryzen 9000 CPUs? Forget them, AMD is already working on Zen 7 chips that won’t arrive until 2028.",
+        "link": "https://www.techradar.com/computing/cpu/believe-it-or-not-amd-has-already-begun-work-on-zen-7-cpus-that-are-three-generations-into-the-future"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "China-linked APT17 Targets Italian Companies with 9002 RAT Malware",
+        "pubDate": "Wed, 17 Jul 2024 14:17:00 +0530",
+        "description": "A China-linked threat actor called APT17 has been observed targeting Italian companies and government entities using a variant of a known malware referred to as 9002 RAT. The two targeted attacks took place on June 24 and July 2, 2024, Italian cybersecurity company TG Soft said in an analysis published last week. \"The first campaign on June 24, 2024 used an Office document, while the second",
+        "link": "https://thehackernews.com/2024/07/china-linked-apt17-targets-italian.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Scattered Spider Adopts RansomHub and Qilin Ransomware for Cyber Attacks",
+        "pubDate": "Wed, 17 Jul 2024 11:20:00 +0530",
+        "description": "The infamous cybercrime group known as Scattered Spider has incorporated ransomware strains such as RansomHub and Qilin into its arsenal, Microsoft has revealed. Scattered Spider is the designation given to a threat actor that's known for its sophisticated social engineering schemes to breach targets and establish persistence for follow-on exploitation and data theft. It also has a history of",
+        "link": "https://thehackernews.com/2024/07/scattered-spider-adopts-ransomhub-and.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Critical Apache HugeGraph Vulnerability Under Attack - Patch ASAP",
+        "pubDate": "Wed, 17 Jul 2024 10:55:00 +0530",
+        "description": "Threat actors are actively exploiting a recently disclosed critical security flaw impacting Apache HugeGraph-Server that could lead to remote code execution attacks. Tracked as CVE-2024-27348 (CVSS score: 9.8), the vulnerability impacts all versions of the software before 1.3.0. It has been described as a remote command execution flaw in the Gremlin graph traversal language API. \"Users are",
+        "link": "https://thehackernews.com/2024/07/critical-apache-hugegraph-vulnerability.html"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Could ChromeOS eventually run on your Android phone? Google’s demo of exactly that is an exciting hint for the future ",
-        "pubDate": "Wed, 15 May 2024 16:09:44 +0000",
-        "description": "Google has held a secret demo showcasing ChromeOS running on an Android device, hinting at potential future plans.",
-        "link": "https://www.techradar.com/computing/software/could-chromeos-eventually-run-on-your-android-phone-googles-demo-of-exactly-that-is-an-exciting-hint-for-the-future"
+        "title": " Claude AI is now on Android where it could dethrone ChatGPT as the most secure AI app ",
+        "pubDate": "Wed, 17 Jul 2024 05:00:41 +0000",
+        "description": "Claude AI gives Android owners a more secure way to answer all your burning questions and solve those tough problems.",
+        "link": "https://www.techradar.com/computing/artificial-intelligence/claude-ai-is-now-on-android-where-it-could-dethrone-chatgpt-as-the-most-secure-ai-app"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Elon Musk Says He Will Move X and SpaceX Headquarters to Texas",
+        "pubDate": "Wed, 17 Jul 2024 00:37:16 +0000",
+        "description": "The social media and rocket companies are based in California, which the billionaire criticized for its recent transgender legislation.",
+        "link": "https://www.nytimes.com/2024/07/16/technology/elon-musk-x-spacex-headquarters-texas.html"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Google One VPN now has a funeral date ",
-        "pubDate": "Wed, 15 May 2024 15:37:39 +0000",
-        "description": "Google One’s VPN service is being discontinued on June 20, 2024. This means you have about a month to find a suitable Android VPN alternative.",
-        "link": "https://www.techradar.com/computing/cyber-security/google-one-vpn-now-has-a-funeral-date"
+        "title": " NYT Strands today — hints, answers and spangram for Wednesday, July 17 (game #136) ",
+        "pubDate": "Tue, 16 Jul 2024 23:02:00 +0000",
+        "description": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+        "link": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-17-july-2024"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Google's answer to OpenAI's Sora has landed – here's how to get on the waitlist ",
-        "pubDate": "Wed, 15 May 2024 14:57:01 +0000",
-        "description": "Google's just revealed a promising generative AI video tool called Veo –and its waitlist is now open.",
-        "link": "https://www.techradar.com/computing/artificial-intelligence/googles-answer-to-openais-sora-has-landed-heres-how-to-get-on-the-waitlist"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "These Electric School Buses Are on Their Way to Save the Grid",
-        "pubDate": "Wed, 15 May 2024 14:00:00 +0000",
-        "description": "Loaded with ever more renewables, the grid will need to store a whole lot of energy. Enter: a new kind of magic school bus—one that can both charge and give power back.",
-        "link": "https://www.wired.com/story/these-electric-school-buses-are-on-their-way-to-save-the-grid/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "Best Cheap Electric Bikes Under $2,000 (2024): Commuter, Folding, Cargo",
-        "pubDate": "Wed, 15 May 2024 13:30:00 +0000",
-        "description": "Zip zap zoom! After months of testing, these are our favorite electric bikes that won’t break the bank.",
-        "link": "https://www.wired.com/gallery/best-cheap-electric-bikes/"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Smartphones Can Now Last 7 Years. Here’s How to Keep Them Working.",
-        "pubDate": "Wed, 15 May 2024 13:00:21 +0000",
-        "description": "Google and Samsung used to update smartphone software for only three years. That has changed.",
-        "link": "https://www.nytimes.com/2024/05/15/technology/personaltech/smartphones-software-update-ios-android.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Turla Group Deploys LunarWeb and LunarMail Backdoors in Diplomatic Missions",
-        "pubDate": "Wed, 15 May 2024 17:59:00 +0530",
-        "description": "An unnamed European Ministry of Foreign Affairs (MFA) and its three diplomatic missions in the Middle East were targeted by two previously undocumented backdoors tracked as LunarWeb and LunarMail. ESET, which identified the activity, attributed it with medium confidence to the Russia-aligned cyberespionage group Turla (aka Iron Hunter, Pensive Ursa, Secret Blizzard, Snake, Uroburos, and Venomous",
-        "link": "https://thehackernews.com/2024/05/turla-group-deploys-lunarweb-and.html"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "Microsoft PowerToys Is the Ultimate Windows 11 Customization Tool",
-        "pubDate": "Wed, 15 May 2024 12:00:00 +0000",
-        "description": "Microsoft’s own PowerToys utility can help you unlock the full potential of the Windows desktop.",
-        "link": "https://www.wired.com/story/microsoft-powertoys-ultimate-tweaking-kit-for-windows-11/"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "(Cyber) Risk = Probability of Occurrence x Damage ",
-        "pubDate": "Wed, 15 May 2024 17:08:00 +0530",
-        "description": "Here’s How to Enhance Your Cyber Resilience with CVSS In late 2023, the Common Vulnerability Scoring System (CVSS) v4.0 was unveiled, succeeding the eight-year-old CVSS v3.0, with the aim to enhance vulnerability assessment for both industry and the public. This latest version introduces additional metrics like safety and automation to address criticism of lacking granularity while",
-        "link": "https://thehackernews.com/2024/05/get-cyber-resilient-with-cvss.html"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "Despite Bird Flu Risk, Raw-Milk Drinkers Are Undaunted",
-        "pubDate": "Wed, 15 May 2024 11:30:00 +0000",
-        "description": "As H5N1 continues its spread among US cow herds, raw milk enthusiasts remain utterly unfazed.",
-        "link": "https://www.wired.com/story/raw-milk-drinkers-h5n1-bird-flu/"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Ebury Botnet Malware Compromises 400,000 Linux Servers Over Past 14 Years",
-        "pubDate": "Wed, 15 May 2024 16:26:00 +0530",
-        "description": "A malware botnet called Ebury is estimated to have compromised 400,000 Linux servers since 2009, out of which more than 100,000 were still compromised as of late 2023. The findings come from Slovak cybersecurity firm ESET, which characterized it as one of the most advanced server-side malware campaigns for financial gain. \"Ebury actors have been pursuing monetization activities [...],",
-        "link": "https://thehackernews.com/2024/05/ebury-botnet-malware-compromises-400000.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "It's Time to Master the Lift & Shift: Migrating from VMware vSphere to Microsoft Azure",
-        "pubDate": "Wed, 15 May 2024 16:25:00 +0530",
-        "description": "While cloud adoption has been top of mind for many IT professionals for nearly a decade, it’s only in recent months, with industry changes and announcements from key players, that many recognize the time to make the move is now. It may feel like a daunting task, but tools exist to help you move your virtual machines (VMs) to a public cloud provider – like Microsoft Azure",
-        "link": "https://thehackernews.com/2024/05/its-time-to-master-lift-shift-migrating.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Inside OpenAI’s Library",
-        "pubDate": "Wed, 15 May 2024 09:00:50 +0000",
-        "description": "OpenAI may be changing how the world interacts with language. But inside headquarters, there is a homage to the written word: a library.",
-        "link": "https://www.nytimes.com/2024/05/15/technology/openai-library-office.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Senators Propose $32 Billion in Annual A.I. Spending but Defer Regulation",
-        "pubDate": "Wed, 15 May 2024 09:00:06 +0000",
-        "description": "Their plan is the culmination of a yearlong listening tour on the dangers of the new technology.",
-        "link": "https://www.nytimes.com/2024/05/15/technology/ai-schumer-roadmap-congress.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Dutch Court Sentences Tornado Cash Co-Founder to 5 Years in Prison for Money Laundering",
-        "pubDate": "Wed, 15 May 2024 13:58:00 +0530",
-        "description": "A Dutch court on Tuesday sentenced one of the co-founders of the now-sanctioned Tornado Cash cryptocurrency mixer service to 5 years and 4 months in prison. While the name of the defendant was redacted in the verdict, it's known that Alexey Pertsev, a 31-year-old Russian national, has been awaiting trial in the Netherlands on money laundering charges.",
-        "link": "https://thehackernews.com/2024/05/dutch-court-sentences-tornado-cash-co.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Microsoft Patches 61 Flaws, Including Two Actively Exploited Zero-Days",
-        "pubDate": "Wed, 15 May 2024 12:47:00 +0530",
-        "description": "Microsoft has addressed a total of 61 new security flaws in its software as part of its Patch Tuesday updates for May 2024, including two zero-days which have been actively exploited in the wild. Of the 61 flaws, one is rated Critical, 59 are rated Important, and one is rated Moderate in severity. This is in addition to 30 vulnerabilities&",
-        "link": "https://thehackernews.com/2024/05/microsoft-patches-61-flaws-including.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Few Chinese Electric Cars Are Sold in U.S., but Industry Fears a Flood",
-        "pubDate": "Wed, 15 May 2024 04:00:06 +0000",
-        "description": "Automakers in the United States and their supporters welcomed President Biden’s tariffs, saying they would protect domestic manufacturing and jobs from cheap Chinese vehicles.",
-        "link": "https://www.nytimes.com/2024/05/15/business/economy/china-electric-vehicles-biden-tariffs.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "OpenAI’s Chief Scientist, Ilya Sutskever, Is Leaving the Company",
-        "pubDate": "Wed, 15 May 2024 01:39:05 +0000",
-        "description": "In November, Ilya Sutskever joined three other OpenAI board members to force out Sam Altman, the chief executive, before saying he regretted the move.",
-        "link": "https://www.nytimes.com/2024/05/14/technology/ilya-sutskever-leaving-openai.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Google Unveils AI Overviews Feature for Search at 2024 I/O Conference",
-        "pubDate": "Wed, 15 May 2024 00:12:49 +0000",
-        "description": "The tech giant showed off how it would enmesh A.I. more deeply into its products and users’ lives, from search to so-called agents that perform tasks.",
-        "link": "https://www.nytimes.com/2024/05/14/technology/google-artificial-intelligence-products.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Can Google Give A.I. Answers Without Breaking the Web?",
-        "pubDate": "Tue, 14 May 2024 18:16:58 +0000",
-        "description": "Publishers have long worried that artificial intelligence would drive readers away from their sites. They’re about to find out if those fears are warranted.",
-        "link": "https://www.nytimes.com/2024/05/14/technology/google-ai-answers.html"
+        "title": " Quordle today – hints and answers for Wednesday, July 17 (game #905) ",
+        "pubDate": "Tue, 16 Jul 2024 23:02:00 +0000",
+        "description": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
+        "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-17-july-2024"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Proton Mail recovery email leads to arrest of Catalan activist ",
-        "pubDate": "Tue, 14 May 2024 16:38:27 +0000",
-        "description": "Proton Mail is under fire for disclosing user data that led to the arrest of an activist in Spain. However, the secure email service is still safe when used properly.",
-        "link": "https://www.techradar.com/computing/cyber-security/proton-mail-hands-data-to-police-again-is-it-still-safe-for-activists"
+        "title": " Investigation finds companies are training AI models with YouTube content without permission ",
+        "pubDate": "Tue, 16 Jul 2024 22:30:15 +0000",
+        "description": "YouTube data is being used without asking creators to train AI models.",
+        "link": "https://www.techradar.com/computing/artificial-intelligence/investigation-finds-companies-are-training-ai-models-with-youtube-content-without-permission"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Is It Silicon Valley’s Job to Make Guaranteed Income a Reality?",
+        "pubDate": "Tue, 16 Jul 2024 19:20:11 +0000",
+        "description": "The tech community, led by Sam Altman of OpenAI, has funded programs that give people unconditional cash. Some say it’s time to scale up.",
+        "link": "https://www.nytimes.com/2024/07/16/technology/ubi-openai-silicon-valley.html"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " Xreal's Beam Pro is a new cheap spatial computer doesn't quite stick the landing ",
+        "pubDate": "Tue, 16 Jul 2024 19:00:38 +0000",
+        "description": "The Xreal Beam Pro delivers a solid portable TV experience, but it's not yet the spatial computer we need it to be.",
+        "link": "https://www.techradar.com/computing/virtual-reality-augmented-reality/xreals-beam-pro-is-a-new-cheap-spatial-computer-doesnt-quite-stick-the-landing"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "How Microsoft’s Satya Nadella Became Tech’s Steely Eyed A.I. Gambler",
+        "pubDate": "Tue, 16 Jul 2024 15:05:23 +0000",
+        "description": "Microsoft’s all-in moment on artificial intelligence has been defined by billions in spending and a C.E.O. counting on technology with huge potential and huge risks.",
+        "link": "https://www.nytimes.com/2024/07/14/technology/microsoft-ai-satya-nadella.html"
       },
       {
         "category": "technology",
         "website": "The Hacker News",
-        "title": "VMware Patches Severe Security Flaws in Workstation and Fusion Products",
-        "pubDate": "Tue, 14 May 2024 21:19:00 +0530",
-        "description": "Multiple security flaws have been disclosed in VMware Workstation and Fusion products that could be exploited by threat actors to access sensitive information, trigger a denial-of-service (DoS) condition, and execute code under certain circumstances. The four vulnerabilities impact Workstation versions 17.x and Fusion versions 13.x, with fixes available in version 17.5.2 and",
-        "link": "https://thehackernews.com/2024/05/vmware-patches-severe-security-flaws-in.html"
+        "title": "'Konfety' Ad Fraud Uses 250+ Google Play Decoy Apps to Hide Malicious Twins",
+        "pubDate": "Tue, 16 Jul 2024 18:30:00 +0530",
+        "description": "Details have emerged about a \"massive ad fraud operation\" that leverages hundreds of apps on the Google Play Store to perform a host of nefarious activities. The campaign has been codenamed Konfety – the Russian word for Candy – owing to its abuse of a mobile advertising software development kit (SDK) associated with a Russia-based ad network called CaramelAds. \"Konfety represents a new form of",
+        "link": "https://thehackernews.com/2024/07/konfety-ad-fraud-uses-250-google-play.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Threat Prevention & Detection in SaaS Environments - 101",
+        "pubDate": "Tue, 16 Jul 2024 16:30:00 +0530",
+        "description": "Identity-based threats on SaaS applications are a growing concern among security professionals, although few have the capabilities to detect and respond to them.  According to the US Cybersecurity and Infrastructure Security Agency (CISA), 90% of all cyberattacks begin with phishing, an identity-based threat. Throw in attacks that use stolen credentials, over-provisioned accounts, and",
+        "link": "https://thehackernews.com/2024/07/threat-prevention-detection-in-saas.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Malicious npm Packages Found Using Image Files to Hide Backdoor Code",
+        "pubDate": "Tue, 16 Jul 2024 15:39:00 +0530",
+        "description": "Cybersecurity researchers have identified two malicious packages on the npm package registry that concealed backdoor code to execute malicious commands sent from a remote server. The packages in question – img-aws-s3-object-multipart-copy and legacyaws-s3-object-multipart-copy – have been downloaded 190 and 48 times each. As of writing, they have been taken down by the npm security team. \"They",
+        "link": "https://thehackernews.com/2024/07/malicious-npm-packages-found-using.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Iranian Hackers Deploy New BugSleep Backdoor in Middle East Cyber Attacks",
+        "pubDate": "Tue, 16 Jul 2024 14:43:00 +0530",
+        "description": "The Iranian nation-state actor known as MuddyWater has been observed using a never-before-seen backdoor as part of a recent attack campaign, shifting away from its well-known tactic of deploying legitimate remote monitoring and management (RMM) software for maintaining persistent access. That's according to independent findings from cybersecurity firms Check Point and Sekoia, which have",
+        "link": "https://thehackernews.com/2024/07/iranian-hackers-deploy-new-bugsleep.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Elon Musk Enters Uncharted Territory With Trump Endorsement",
+        "pubDate": "Tue, 16 Jul 2024 09:03:54 +0000",
+        "description": "The owner of X broke with tradition at other social media companies to support the former president, as he drives political conversation on his site.",
+        "link": "https://www.nytimes.com/2024/07/16/technology/elon-musk-trump.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Void Banshee APT Exploits Microsoft MHTML Flaw to Spread Atlantida Stealer",
+        "pubDate": "Tue, 16 Jul 2024 14:30:00 +0530",
+        "description": "An advanced persistent threat (APT) group called Void Banshee has been observed exploiting a recently disclosed security flaw in the Microsoft MHTML browser engine as a zero-day to deliver an information stealer called Atlantida. Cybersecurity firm Trend Micro, which observed the activity in mid-May 2024, the vulnerability – tracked as CVE-2024-38112 – was used as part of a multi-stage attack",
+        "link": "https://thehackernews.com/2024/07/void-banshee-apt-exploits-microsoft.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Donald Trump Was Shot. Then the Conspiracy Theories Spread.",
+        "pubDate": "Mon, 15 Jul 2024 22:14:47 +0000",
+        "description": "Claims that President Biden and his allies ordered the attack on Donald J. Trump, or that Mr. Trump staged the attack, started quickly and spread fast across social media.",
+        "link": "https://www.nytimes.com/2024/07/15/technology/trump-shooting-conspiracy-theories.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Electric Vehicles May Become Harder to Rent",
+        "pubDate": "Mon, 15 Jul 2024 19:30:03 +0000",
+        "description": "Rental car firms are offering temporary deals on electric cars, which they are selling after they lost value more quickly than expected.",
+        "link": "https://www.nytimes.com/2024/07/14/business/electric-vehicles-rental-cars.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Google Close to Its Biggest Acquisition Ever, Despite Antitrust Scrutiny",
+        "pubDate": "Mon, 15 Jul 2024 18:31:38 +0000",
+        "description": "The search giant’s negotiations to buy Wiz, a cybersecurity start-up, for $23 billion, come as the Biden administration has taken a hard line against consolidation in tech and other industries.",
+        "link": "https://www.nytimes.com/2024/07/14/technology/google-wiz-deal.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "A Reporter Who Sees Meaning in the Stars",
+        "pubDate": "Sun, 14 Jul 2024 07:00:18 +0000",
+        "description": "As a science reporter, Katrina Miller covers the cosmos, innovations in physics, space exploration and more.",
+        "link": "https://www.nytimes.com/2024/07/14/insider/space-reporting.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "The End of the Affair? Not for Eric Schmidt.",
+        "pubDate": "Fri, 12 Jul 2024 17:26:01 +0000",
+        "description": "While Mr. Schmidt was chief executive of Google, he had an extramarital relationship with Marcy Simon, a public relations executive. A decade after they split, things are still messy.",
+        "link": "https://www.nytimes.com/2024/07/12/technology/eric-schmidt-affair.html"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " NYT Wordle today — answer and hints for game #1124, Wednesday, July 17 ",
+        "pubDate": "Tue, 14 Feb 2023 09:56:57 +0000",
+        "description": "Looking for Wordle hints? We can help. Plus get the answers to Wordle today and yesterday.",
+        "link": "https://www.techradar.com/news/wordle-today"
       }
     ]
   }
