@@ -1,4 +1,4 @@
-News API
+World News API
 ============
 
 News API is a simple tool for scraping news data. It returns the news title, description, and more.
@@ -7,7 +7,7 @@ News API is a simple tool for scraping news data. It returns the news title, des
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a .NET Wrapper for the [News API](https://apiverve.com/marketplace/api/news)
+This is a .NET Wrapper for the [World News API](https://apiverve.com/marketplace/api/news)
 
 ---
 
@@ -15,17 +15,17 @@ This is a .NET Wrapper for the [News API](https://apiverve.com/marketplace/api/n
 
 Using the .NET CLI:
 ```
-dotnet add package APIVerve.API.News
+dotnet add package APIVerve.API.WorldNews
 ```
 
 Using the Package Manager:
 ```
-nuget install APIVerve.API.News
+nuget install APIVerve.API.WorldNews
 ```
 
 Using the Package Manager Console:
 ```
-Install-Package APIVerve.API.News
+Install-Package APIVerve.API.WorldNews
 ```
 
 From within Visual Studio:
@@ -33,8 +33,8 @@ From within Visual Studio:
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
 3. Click on Manage NuGet Packages...
-4. Click on the Browse tab and search for "APIVerve.API.News".
-5. Click on the APIVerve.API.News package, select the appropriate version in the right-tab and click Install.
+4. Click on the Browse tab and search for "APIVerve.API.WorldNews".
+5. Click on the APIVerve.API.WorldNews package, select the appropriate version in the right-tab and click Install.
 
 
 ---
@@ -48,17 +48,17 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The News API documentation is found here: [https://docs.apiverve.com/api/news](https://docs.apiverve.com/api/news).  
+The World News API documentation is found here: [https://docs.apiverve.com/api/news](https://docs.apiverve.com/api/news).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ###### Authentication
-News API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
+World News API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
 
 ```
 // Create an instance of the API client
-var apiClient = new NewsAPIClient("[YOUR_API_KEY]", true);
+var apiClient = new WorldNewsAPIClient("[YOUR_API_KEY]", true);
 ```
 
 ---
@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new newsQueryOptions {
+var queryOptions = new WorldNewsQueryOptions {
   category = "technology"
 };
 ```
@@ -94,492 +94,493 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "date": "2024-07-17",
+    "date": "2024-08-14",
     "category": "technology",
     "articleCount": 60,
     "articles": [
       {
         "category": "technology",
-        "website": "Latest news",
-        "title": "165+ best Prime Day deals: Sales on AirPods, Kindles, Fire TV Sticks, and more",
-        "pubDate": "Wed, 17 Jul 2024 15:10:31 +0000",
-        "description": "Our experts found the best deals during Amazon Prime Day 2, including Apple products, TVs, laptops, headphones, robot vacuums, and more.",
-        "link": "https://www.zdnet.com/article/best-amazon-prime-day-deals-live-2024-07-17/#ftag=RSSbaffb68"
+        "website": "The Hacker News",
+        "title": "Microsoft Issues Patches for 90 Flaws, Including 10 Critical Zero-Day Exploits",
+        "pubDate": "Wed, 14 Aug 2024 11:18:00 +0530",
+        "description": "Microsoft on Tuesday shipped fixes to address a total of 90 security flaws, including 10 zero-days, of which six have come under active exploitation in the wild. Of the 90 bugs, seven are rated Critical, 79 are rated Important, and one is rated Moderate in severity. This is also in addition to 36 vulnerabilities that the tech giant resolved in its Edge browser since last month. The Patch Tuesday",
+        "link": "https://thehackernews.com/2024/08/microsoft-issues-patches-for-90-flaws.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Critical Flaw in Ivanti Virtual Traffic Manager Could Allow Rogue Admin Access",
+        "pubDate": "Wed, 14 Aug 2024 10:48:00 +0530",
+        "description": "Ivanti has rolled out security updates for a critical flaw in Virtual Traffic Manager (vTM) that could be exploited to achieve an authentication bypass and create rogue administrative users. The vulnerability, tracked as CVE-2024-7593, has a CVSS score of 9.8 out of a maximum of 10.0. \"Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2",
+        "link": "https://thehackernews.com/2024/08/critical-flaw-in-ivanti-virtual-traffic.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "China-Backed Earth Baku Expands Cyber Attacks to Europe, Middle East, and Africa",
+        "pubDate": "Wed, 14 Aug 2024 10:31:00 +0530",
+        "description": "The China-backed threat actor known as Earth Baku has diversified its targeting footprint beyond the Indo-Pacific region to include Europe, the Middle East, and Africa starting in late 2022. Newly targeted countries as part of the activity include Italy, Germany, the U.A.E., and Qatar, with suspected attacks also detected in Georgia and Romania. Governments, media and communications, telecoms,",
+        "link": "https://thehackernews.com/2024/08/china-backed-earth-baku-expands-cyber.html"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " Google's new Pixel Screenshots takes an active (and safe) approach to organizing your digital life ",
+        "pubDate": "Wed, 14 Aug 2024 04:30:00 +0000",
+        "description": "Exclusive to the Pixel 9 series, the new app can automatically save screengrabs complete with URLs inside entries.",
+        "link": "https://www.techradar.com/computing/software/googles-new-pixel-screenshots-takes-an-active-and-safe-approach-to-organizing-your-digital-life"
       },
       {
         "category": "technology",
         "website": "Latest news",
-        "title": "The 39 best Prime Day monitor deals",
-        "pubDate": "Wed, 17 Jul 2024 15:08:00 +0000",
-        "description": "Looking to upgrade your existing PC monitor? There are some great monitor deals from Samsung, LG, Acer, and more available during Amazon Prime Day.",
-        "link": "https://www.zdnet.com/article/best-amazon-prime-day-monitor-deals-2024-07-17/#ftag=RSSbaffb68"
+        "title": "Buying the Google Pixel 9 Pro from these retailers gets you a free gift card (up to $350)",
+        "pubDate": "Wed, 14 Aug 2024 03:49:00 +0000",
+        "description": "The new Google Pixel 9 series is available for preorders, and early-bird shoppers can receive a free gift card worth hundreds.",
+        "link": "https://www.zdnet.com/article/buying-the-google-pixel-9-pro-from-these-retailers-gets-you-a-free-gift-card-up-to-350/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " Google is making Gemini AI part of everything you do with your smartphone – here's how ",
+        "pubDate": "Wed, 14 Aug 2024 02:00:34 +0000",
+        "description": "Google embeds Gemini AI throughout mobile devices.",
+        "link": "https://www.techradar.com/computing/artificial-intelligence/google-is-making-gemini-ai-part-of-everything-you-do-with-your-smartphone-and-heres-5-ways-itll-do-that"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "Google's new Pixel Screenshots may be the feature that finally converts me to use AI",
+        "pubDate": "Wed, 14 Aug 2024 00:52:00 +0000",
+        "description": "It won't turn my boring office background into a field of flowers, but being able to parse through hundreds of screenshots with a few clicks feels like a major win.",
+        "link": "https://www.zdnet.com/article/googles-new-pixel-screenshots-may-be-the-feature-that-finally-converts-me-to-use-ai/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": "The Verge -  All Posts",
-        "title": "The best budget robot vacuums",
-        "pubDate": "2024-07-17T15:06:57Z",
-        "description": "Illustration: The Verge          \t\t  You don’t have to spend a fortune to have a robot clean your floors. Here’s our pick of the most cost-effective bots you can buy right now. Continue reading…",
-        "link": "https://www.theverge.com/23846479/best-budget-robot-vacuum-robot-mop"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "The best Prime Day deals on Amazon devices ",
-        "pubDate": "2024-07-17T15:06:34Z",
-        "description": "The Kindle Scribe is down to an all-time low price. | Image: Amelia Holowaty Krales          Amazon Prime Day 2024 has officially arrived. We’ve already published a detailed guide to the best Prime Day deals, but if you’re just interested in Amazon devices, this is where you’ll find the ones that are actually worthwhile. From Alexa-based Echo smart speakers to video doorbells, Amazon is discounting a wide range of gadgets, some of which are currently seeing their lowest prices to date.     Of course, the main caveat here is that you’ll have to be an active Amazon Prime member to take advantage of any and all Prime Day deals. Luckily, Amazon makes it pretty easy to sign up, especially since new members can take advantage of the exclusive discounts with a free 30-day trial.   The best streaming device and TV deals     If you’re... Continue reading…",
-        "link": "https://www.theverge.com/24186875/amazon-prime-day-device-deals-echo-speakers-kindles-fire-tv-streaming-sticks-sale-2024"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "40 of the best Prime Day impulse buys you don't want to miss",
-        "pubDate": "Wed, 17 Jul 2024 15:06:00 +0000",
-        "description": "Get ready to dive into day two of Amazon Prime Day deals, with a raft of impulse buys and random odds-and-ends tech deals that will have you reaching for your wallet.",
-        "link": "https://www.zdnet.com/home-and-office/best-prime-day-impulse-buy-deals-2024-07-17/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "The 42 best Prime Day 2024 Nintendo Switch deals",
-        "pubDate": "Wed, 17 Jul 2024 15:02:00 +0000",
-        "description": "It's day two of Amazon Prime Day 2024 is in full swing, and Amazon, Best Buy, and Walmart are offering great discounts on Nintendo Switch consoles, games, and accessories right now.",
-        "link": "https://www.zdnet.com/home-and-office/home-entertainment/best-prime-day-nintendo-switch-deals-2024-07-17/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "Microsoft’s Designer app arrives on iOS and Android with AI editing and creation",
-        "pubDate": "2024-07-17T15:00:00Z",
-        "description": "Image: Microsoft          Microsoft’s AI-powered Designer app is coming out of preview today for both iOS and Android users. Microsoft Designer lets you use templates to create custom images, stickers, greeting cards, invitations, and more. Designer can also use AI to edit images and restyle them or create collages of images. Originally available on the web or through Microsoft Edge, Designer has been in preview for nearly a year. It’s now generally available to anyone with a personal Microsoft account and as a free app for Windows, iOS, and Android. The mobile app includes the ability to create images and edit them on the go. Image: Microsoft       The Microsoft Designer editor view.    Microsoft Designer includes the usual text prompt for... Continue reading…",
-        "link": "https://www.theverge.com/2024/7/17/24200294/microsoft-designer-app-launch-windows-ios-android-features"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "Cadillac is giving its gas-powered Escalade an EV glow-up",
-        "pubDate": "2024-07-17T15:00:00Z",
-        "description": "Image: Cadillac          The Cadillac Escalade IQ, the electric version of the automaker’s yacht-sized luxury SUV, won’t be out until later this year, so in the meantime, the automaker is hoping to whet appetites by giving the gas-powered version an EV makeover. Starting the front grille, the new 2025 Escalade will have new vertically positioned headlights inspired by the Cadillac Lyriq and Celestiq, as well as an illuminated Cadillac badge in the center. And on the V-series, Premium Luxury, and Platinum trims, there is also an LED border that outlines the grille — which also calls to mind the illuminated grilles of Cadillac’s EV lineup. Moving inside, the interior has been totally redesigned to give over a lot more real estate to screens. The Escalade will now... Continue reading…",
-        "link": "https://www.theverge.com/2024/7/17/24198989/cadillac-escalade-refresh-2025-screen-ev-power-doors"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "You can trade in old electronics for Amazon gift cards. Here's how it works",
-        "pubDate": "Wed, 17 Jul 2024 15:00:00 +0000",
-        "description": "In time for Prime Day, follow these steps to turn your unused gadgets and gizmos into Amazon gift cards.",
-        "link": "https://www.zdnet.com/article/you-can-trade-in-old-electronics-for-amazon-gift-cards-heres-how-it-works/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "The best Prime Day gaming deals",
-        "pubDate": "2024-07-17T14:59:04Z",
-        "description": "You can get a refurbished Xbox Series X for well under $400 today — if you don’t mind buying refurbished. | Photo by Vjeran Pavic / The Verge          If you’ve worked hard this year, you deserve to play even harder, and you can do that on a modest budget with some of the Prime Day gaming deals available right now. Amazon’s Prime Day 2024 sale runs through the end of today, July 17th, offering plenty of discounts on video games, controllers, headsets, storage, and other gear and accessories to level up your experience.   We’re seeing new all-time low prices on some of the top games that have been released over the past couple of years. There’s a healthy assortment of titles to consider, whether you’re playing on PlayStation 5, Nintendo Switch, or Xbox Series X / S. There’s also quite a few deals for actual hardware, too — though no consoles apart from the Meta Quest 3 as of now. We’ll... Continue reading…",
-        "link": "https://www.theverge.com/24198226/amazon-prime-day-2024-best-gaming-deals-controller-headset-accessories"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "The 18 best Prime Day Samsung phone deals",
-        "pubDate": "Wed, 17 Jul 2024 14:55:00 +0000",
-        "description": "The second day of Amazon Prime Day is here, and you can take advantage of deals on Samsung products, including Galaxy phones, TVs, and smart home gadgets.",
-        "link": "https://www.zdnet.com/home-and-office/best-amazon-prime-day-samsung-phone-deals-2024-07-17/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "The 109 best Prime Day 2024 gaming deals",
-        "pubDate": "Wed, 17 Jul 2024 14:52:00 +0000",
-        "description": "Day 2 of Amazon's annual Prime Day sale is well underway, and you can find great deals on gaming consoles, PCs and laptops, accessories, and even games themselves. Hurry before these deals disappear -- Prime Day ends tonight at midnight.",
-        "link": "https://www.zdnet.com/home-and-office/home-entertainment/best-amazon-prime-day-gaming-deals-2024-07-17/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "I love this DeWalt cordless drill and impact driver set, and it's 42% off for Prime Day",
-        "pubDate": "Wed, 17 Jul 2024 14:49:12 +0000",
-        "description": "Save $100 on this DeWalt power tool kit in this Amazon Prime Day deal before it disappears.",
-        "link": "https://www.zdnet.com/home-and-office/i-love-this-dewalt-cordless-drill-and-impact-driver-set-and-its-42-off-for-prime-day/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "The Oura Ring is finally on sale through Prime Day (and that rarely happens)",
-        "pubDate": "Wed, 17 Jul 2024 14:47:20 +0000",
-        "description": "The Horizon Oura Ring is up $67 off during Prime Day, a rare discount on a product that rarely goes on sale.",
-        "link": "https://www.zdnet.com/article/oura-ring-prime-day-sale-07-17-2024/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "Latest news",
-        "title": "This Oura Ring rival is $55 off during Prime Day -- no subscription necessary",
-        "pubDate": "Wed, 17 Jul 2024 14:46:35 +0000",
-        "description": "The Ultrahuman Ring Air is a subscription-free smart ring that rivals the Oura Ring, and it's less than $300 on the second day of Prime Day.",
-        "link": "https://www.zdnet.com/article/ultrahuman-ring-air-amazon-prime-day-deal-07-17-2024/#ftag=RSSbaffb68"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "The UK will start feeding lab-grown meat to pets this year",
-        "pubDate": "2024-07-17T14:43:39Z",
-        "description": "Image: Meatly          The UK is now the first European country to green-light the sale of lab-grown meat, but with pets instead of human consumers as its first guinea pigs.  The UK’s Animal and Plant Health Agency and the Department for Environment, Food & Rural Affairs granted London-based startup Meatly regulatory approval to produce lab-grown pet food, which described the clearance as a “huge leap forward for the cultivated meat industry.” “Pet parents are crying out for a better way to feed their cats and dogs meat,” Meatly CEO Owen Ensor said in a statement, pitching that the company’s cultivated pet food would allow them to do so “in a way that is kinder to our planet and other animals.”  Meatly says it plans to launch commercial samples of its first... Continue reading…",
-        "link": "https://www.theverge.com/2024/7/17/24200412/uk-lab-grown-cultivated-meat-pet-food-approval-meatly"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "The Fitbit Charge 6 Is a Deal at Just $100 Right Now",
-        "pubDate": "Wed, 17 Jul 2024 14:31:00 +0000",
-        "description": "The best fitness tracker you can buy—at its best price. Can we get a W in the chat?",
-        "link": "https://www.wired.com/story/fitbit-charge-6-prime-day-deal/"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "The best Apple deals available for Amazon Prime Day 2024 ",
-        "pubDate": "2024-07-17T14:30:30Z",
-        "description": "The latest iPad is down to an all-time low price. | Photo by Dan Seifert / The Verge          Thanks to Amazon Prime Day, you don’t need to wait until Black Friday this year to save big on Apple gadgets. Despite being an Amazon event, some of the best deals surprisingly include popular Apple products, ranging from the high-end latest AirPods Pro to the entry-level third-gen AirPods — both of which have new all-time low prices.    It’s not just AirPods that are receiving steep discounts, though, but also the Apple Watch Series 9, the latest iPad, and other excellent Apple devices. Below, we’ve rounded up the cream of the crop to make diving through the deals easier. If you’re interested in deals outside of the Apple ecosystem, check out our main Prime Day roundup so you can save even more. The best AirPods deals    Normally $549.99,...     Continue reading…",
-        "link": "https://www.theverge.com/24196778/amazon-prime-day-apple-deals-airpods-watch-ipad-macbook-2024"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "6 Best Amazon Prime Day Coffee Deals",
-        "pubDate": "Wed, 17 Jul 2024 14:18:07 +0000",
-        "description": "Get wired with these piping-hot Prime Day coffee deals on espresso machines, grinders, and coffee beans.",
-        "link": "https://www.wired.com/story/prime-day-coffee-deals-2024-1/"
+        "title": "Valve confirms it'll support the ROG Ally with its Steam Deck operating system",
+        "pubDate": "2024-08-14T00:15:10Z",
+        "description": "Valve once imagined that every PC maker could have their own \"Steam Machine,\" a PC game console running the company's Linux-based SteamOS. It took a decade for that dream to evolve into the company's own internally developed Steam Deck gaming handheld, but the original dream isn't dead.  The company's long said it plans to let other companies use SteamOS, too — and that means explicitly supporting the rival Asus ROG Ally gaming handheld, Valve designer Lawrence Yang now confirms to The Verge. A few days ago, some spotted an intriguing line in Valve's latest SteamOS release notes: “Added support for extra ROG Ally keys.” We didn't know Valve was supporting any ROG Ally keys at all, let alone extras!  Maybe Valve was just supporting those... Continue reading…",
+        "link": "https://www.theverge.com/2024/8/13/24219469/valve-steamos-asus-rog-ally-steady-progress-dual-boot"
       },
       {
         "category": "technology",
         "website": "NYT > Technology",
-        "title": "How Trump’s Running Mate J.D. Vance is Connected to Silicon Valley",
-        "pubDate": "Wed, 17 Jul 2024 14:13:10 +0000",
-        "description": "Mr. Vance spent less than five years in Silicon Valley’s tech industry, but the connections he made with Peter Thiel and others became crucial to his political ascent.",
-        "link": "https://www.nytimes.com/2024/07/17/technology/jd-vance-tech-silicon-valley.html"
+        "title": "U.S. Considers Breaking Up Google to Address Search Monopoly",
+        "pubDate": "Tue, 13 Aug 2024 23:45:38 +0000",
+        "description": "The Justice Department and state attorneys general are discussing various scenarios to remedy Google’s dominance in online search, including a breakup of the company.",
+        "link": "https://www.nytimes.com/2024/08/13/technology/google-monopoly-antitrust-justice-department.html"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "Google Pixel 9's new AI photo-editing features can fix just about any poorly-captured image",
+        "pubDate": "Tue, 13 Aug 2024 23:29:00 +0000",
+        "description": "From improved zooming to AI-powered group photos, here are the Pixel 9's greatest hits.",
+        "link": "https://www.zdnet.com/article/google-pixel-9s-new-ai-photo-editing-features-can-fix-just-about-any-poorly-captured-image/#ftag=RSSbaffb68"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Windows 11 24H2 update may not turn up until late in the year – and given how many plates Microsoft is spinning, that wouldn’t surprise us ",
-        "pubDate": "Wed, 17 Jul 2024 14:11:57 +0000",
-        "description": "Can’t wait for the big 24H2 update? Well, you might have to, and we can readily believe the upgrade could be delayed.",
-        "link": "https://www.techradar.com/computing/windows/windows-11-24h2-update-may-not-turn-up-until-late-in-the-year-and-given-how-many-plates-microsoft-is-spinning-that-wouldnt-surprise-us"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "OpenAI CEO Sam Altman’s $27 million mansion is a ‘lemon’ with a leaky pool, lawsuit alleges",
-        "pubDate": "2024-07-17T14:11:01Z",
-        "description": "Image: Cath Virginia / The Verge; Getty Images          Sam Altman’s $27 million San Francisco luxury abode is apparently plagued with issues, ranging from a leaky infinity pool to faulty piping that dumped raw sewage on the property. That’s according to a lawsuit that The San Francisco Standard linked to the OpenAI CEO’s residence, which claims Altman purchased a “lemon” with “pervasive shoddy workmanship and corner-cutting.” The 9,500-square-foot estate is situated on San Francisco’s iconic Lombard Street, where it overlooks the city and the bay. As you can see in this walkthrough of the home, some of its key features include a four-sided infinity pool that hangs off the edge of the house, a “Batcave” leading into a garage, as well as a system that uses recycled rainwater to irrigate an... Continue reading…",
-        "link": "https://www.theverge.com/2024/7/17/24200354/sam-altman-san-francisco-mansion-lawsuit-lemon-openai"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "Home Depot’s viral giant skeleton has some upgrades — and lots of new friends",
-        "pubDate": "2024-07-17T14:02:53Z",
-        "description": "Image: Home Depot          Five years ago, Home Depot stumbled upon a viral hit with a 12-foot-tall skeleton nicknamed Skelly. The towering Halloween decoration can be seen year-round in some neighborhoods, has been featured in countless memes and TikToks, and remains a hot ticket — it went back on sale in April and promptly sold out. Now the company is bringing back a slightly refreshed version of the skeleton as part of a huge lineup of Halloween creatures packed with LEDs and animatronics, as it looks to keep its undead hit alive. Skelly remains the centerpiece. The skeleton is going back on sale with a slight tweak: now those creepy LED eyes are customizable, with eight different presets so you can keep Skelly in style for multiple holidays. One of the options... Continue reading…",
-        "link": "https://www.theverge.com/2024/7/17/24199821/home-depot-halloween-2024-skelly-skeleton"
-      },
-      {
-        "category": "technology",
-        "website": "The Verge -  All Posts",
-        "title": "The best Prime Day deals on smart home gear",
-        "pubDate": "2024-07-17T14:00:00Z",
-        "description": "The Blink Video Doorbell is down to $30 for Prime Day. | Photo by Jennifer Pattison Tuohy / The Verge          Amazon’s Prime Day 2024 runs from Tuesday, July 16th, through Wednesday, July 17th, and is an excellent way to stock up on smart home gear. I spent hours sifting through the best deals to bring you my picks for the best buys. Grab some serious bargains on robot vacuums, smart kitchen gadgets, and lots of smart plugs. Plus, smart lighting favorites Philips Hue and Lutron Caséta have some select savings on their popular products. Read on for all the latest deals, and be sure to check back, as I’ll keep this updated throughout the sale.    Best deals on Amazon Echo devices Several of my favorite Echo smart speakers and displays are on sale this Prime Day. If you’re looking for good sound and a smart home hub that adds support for T...  Continue reading…",
-        "link": "https://www.theverge.com/2024/7/16/24199019/amazon-prime-day-best-smart-home-deals-robot-vacuums-video-doorbells-smart-bulbs"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "WIRED's Top Prime Day Deals on Wires, Cords, and Cables So You Can Stay Wired Forever (2024)",
-        "pubDate": "Wed, 17 Jul 2024 13:53:05 +0000",
-        "description": "The humble cable is a necessity for our tech gadgets, and these Prime Day deals will keep you wired.",
-        "link": "https://www.wired.com/story/amazon-prime-day-cables-deals-2024/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "The New UK Government Wants Clean Energy, Sustainable Aviation Fuel, and Public Transport Reform",
-        "pubDate": "Wed, 17 Jul 2024 13:10:36 +0000",
-        "description": "Legislation in coming years will set up a publicly owned clean power company and leverage the Crown Estate for investment in green infrastructure.",
-        "link": "https://www.wired.com/story/kings-speech-starmer-labour-climate-environment-policy/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "Best Prime Day Toy Deals on Board Games and Legos (2024)",
-        "pubDate": "Wed, 17 Jul 2024 12:57:25 +0000",
-        "description": "Play around with these Amazon Prime Day deals on some of our favorite toys and board games.",
-        "link": "https://www.wired.com/story/amazon-prime-day-toy-game-deals-1/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "The Race for Space-Based Solar Power",
-        "pubDate": "Wed, 17 Jul 2024 12:00:00 +0000",
-        "description": "Once a sci-fi staple, the ability to beam solar power from space now seems closer than ever—but a lot of work remains.",
-        "link": "https://www.wired.com/story/sun-based-solar-power-esa-energy/"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " Intel raising power safeguard for next-gen Arrow Lake CPUs has rung alarm bells for some – but we’re hopeful it’s a positive sign ",
-        "pubDate": "Wed, 17 Jul 2024 11:56:34 +0000",
-        "description": "Will Intel’s next-gen processors put Core i9 stability issues firmly in the rearview mirror?",
-        "link": "https://www.techradar.com/computing/cpu/intel-raising-power-safeguard-for-next-gen-arrow-lake-cpus-has-rung-alarm-bells-for-some-but-were-hopeful-its-a-positive-sign"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "The Best Prime Day Gaming Deals You Don't Want to Miss (2024)",
-        "pubDate": "Wed, 17 Jul 2024 11:54:33 +0000",
-        "description": "Amazon’s Prime Day event is packed with deals for gamers on everything from OLED gaming monitors to gaming keyboards and controllers. Oh, and games too!",
-        "link": "https://www.wired.com/story/amazon-prime-day-gaming-deals-2024/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "The Paris Olympics Will Show Us the Future of Sports on TV",
-        "pubDate": "Wed, 17 Jul 2024 11:30:00 +0000",
-        "description": "This summer’s Games are going to look bigger and better and louder than ever, thanks to key innovations in the broadcast booth and in the cloud.",
-        "link": "https://www.wired.com/story/paris-olympics-broadcast-tech-ai/"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "The Top 5 Prime Day Kindle Deals—Plus More Amazon Devices (2024)",
-        "pubDate": "Wed, 17 Jul 2024 11:10:44 +0000",
-        "description": "Amazon's shopping holiday is the best time to buy some of the brand's devices that we love.",
-        "link": "https://www.wired.com/story/prime-day-kindle-amazon-device-deals-2024-1/"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Navigating Insider Risks: Are your Employees Enabling External Threats?",
-        "pubDate": "Wed, 17 Jul 2024 16:39:00 +0530",
-        "description": "Attacks on your network are often meticulously planned operations launched by sophisticated threats. Sometimes your technical fortifications provide a formidable challenge, and the attack requires assistance from the inside to succeed. For example, in 2022, the FBI issued a warning1 that SIM swap attacks are growing: gain control of the phone and earn a gateway to email, bank accounts, stocks,",
-        "link": "https://thehackernews.com/2024/07/navigating-insider-risks-are-your.html"
-      },
-      {
-        "category": "technology",
-        "website": "Wired",
-        "title": "RealPage Says Rental Pricing Tech Is Misunderstood, but Landlords Aren’t So Sure",
-        "pubDate": "Wed, 17 Jul 2024 11:01:50 +0000",
-        "description": "The software company has pushed back hard against claims that its algorithms helped make rent in the US too damn high. Property owners and managers aren't entirely convinced.",
-        "link": "https://www.wired.com/story/realpage-says-rental-pricing-tech-is-misunderstood-but-landlords-arent-so-sure/"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " The Meta Quest 3’s Netflix app has been shut for good – but the alternative is better than it ever was ",
-        "pubDate": "Wed, 17 Jul 2024 10:46:09 +0000",
-        "description": "Netflix's Meta Quest browser experience is better than the app ever was, but it's still a flawed system.",
-        "link": "https://www.techradar.com/computing/virtual-reality-augmented-reality/the-meta-quest-3s-netflix-app-has-been-shut-for-good-but-the-alternative-is-better-than-it-ever-was"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "FIN7 Group Advertises Security-Bypassing Tool on Dark Web Forums",
-        "pubDate": "Wed, 17 Jul 2024 16:03:00 +0530",
-        "description": "The financially motivated threat actor known as FIN7 has been observed using multiple pseudonyms across several underground forums to likely advertise a tool known to be used by ransomware groups like Black Basta. \"AvNeutralizer (aka AuKill), a highly specialized tool developed by FIN7 to tamper with security solutions, has been marketed in the criminal underground and used by multiple",
-        "link": "https://thehackernews.com/2024/07/fin7-group-advertises-security.html"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " Believe it or not, AMD has already begun work on Zen 7 CPUs that are three generations into the future ",
-        "pubDate": "Wed, 17 Jul 2024 09:45:32 +0000",
-        "description": "Excited about Ryzen 9000 CPUs? Forget them, AMD is already working on Zen 7 chips that won’t arrive until 2028.",
-        "link": "https://www.techradar.com/computing/cpu/believe-it-or-not-amd-has-already-begun-work-on-zen-7-cpus-that-are-three-generations-into-the-future"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "China-linked APT17 Targets Italian Companies with 9002 RAT Malware",
-        "pubDate": "Wed, 17 Jul 2024 14:17:00 +0530",
-        "description": "A China-linked threat actor called APT17 has been observed targeting Italian companies and government entities using a variant of a known malware referred to as 9002 RAT. The two targeted attacks took place on June 24 and July 2, 2024, Italian cybersecurity company TG Soft said in an analysis published last week. \"The first campaign on June 24, 2024 used an Office document, while the second",
-        "link": "https://thehackernews.com/2024/07/china-linked-apt17-targets-italian.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Scattered Spider Adopts RansomHub and Qilin Ransomware for Cyber Attacks",
-        "pubDate": "Wed, 17 Jul 2024 11:20:00 +0530",
-        "description": "The infamous cybercrime group known as Scattered Spider has incorporated ransomware strains such as RansomHub and Qilin into its arsenal, Microsoft has revealed. Scattered Spider is the designation given to a threat actor that's known for its sophisticated social engineering schemes to breach targets and establish persistence for follow-on exploitation and data theft. It also has a history of",
-        "link": "https://thehackernews.com/2024/07/scattered-spider-adopts-ransomhub-and.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Critical Apache HugeGraph Vulnerability Under Attack - Patch ASAP",
-        "pubDate": "Wed, 17 Jul 2024 10:55:00 +0530",
-        "description": "Threat actors are actively exploiting a recently disclosed critical security flaw impacting Apache HugeGraph-Server that could lead to remote code execution attacks. Tracked as CVE-2024-27348 (CVSS score: 9.8), the vulnerability impacts all versions of the software before 1.3.0. It has been described as a remote command execution flaw in the Gremlin graph traversal language API. \"Users are",
-        "link": "https://thehackernews.com/2024/07/critical-apache-hugegraph-vulnerability.html"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " Claude AI is now on Android where it could dethrone ChatGPT as the most secure AI app ",
-        "pubDate": "Wed, 17 Jul 2024 05:00:41 +0000",
-        "description": "Claude AI gives Android owners a more secure way to answer all your burning questions and solve those tough problems.",
-        "link": "https://www.techradar.com/computing/artificial-intelligence/claude-ai-is-now-on-android-where-it-could-dethrone-chatgpt-as-the-most-secure-ai-app"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Elon Musk Says He Will Move X and SpaceX Headquarters to Texas",
-        "pubDate": "Wed, 17 Jul 2024 00:37:16 +0000",
-        "description": "The social media and rocket companies are based in California, which the billionaire criticized for its recent transgender legislation.",
-        "link": "https://www.nytimes.com/2024/07/16/technology/elon-musk-x-spacex-headquarters-texas.html"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " NYT Strands today — hints, answers and spangram for Wednesday, July 17 (game #136) ",
-        "pubDate": "Tue, 16 Jul 2024 23:02:00 +0000",
-        "description": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
-        "link": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-17-july-2024"
-      },
-      {
-        "category": "technology",
-        "website": " TechRadar - All the latest technology news ",
-        "title": " Quordle today – hints and answers for Wednesday, July 17 (game #905) ",
-        "pubDate": "Tue, 16 Jul 2024 23:02:00 +0000",
+        "title": " Quordle today – hints and answers for Wednesday, August 14 (game #933) ",
+        "pubDate": "Tue, 13 Aug 2024 23:02:00 +0000",
         "description": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
-        "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-17-july-2024"
+        "link": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-14-august-2024"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Investigation finds companies are training AI models with YouTube content without permission ",
-        "pubDate": "Tue, 16 Jul 2024 22:30:15 +0000",
-        "description": "YouTube data is being used without asking creators to train AI models.",
-        "link": "https://www.techradar.com/computing/artificial-intelligence/investigation-finds-companies-are-training-ai-models-with-youtube-content-without-permission"
+        "title": " NYT Strands today — hints, answers and spangram for Wednesday, August 14 (game #164) ",
+        "pubDate": "Tue, 13 Aug 2024 23:02:00 +0000",
+        "description": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
+        "link": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-14-august-2024"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "6 AI features Google thinks will sell you on its latest Pixel phones (including the Fold)",
+        "pubDate": "Tue, 13 Aug 2024 22:45:00 +0000",
+        "description": "New tools including Call Summary and Pixel Screenshots take the Pixel 9 series' AI capabilities to the next level.",
+        "link": "https://www.zdnet.com/article/6-ai-features-google-thinks-will-sell-you-on-its-latest-pixel-phones-including-the-fold/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "ChatGPT Advanced Voice Mode First Impressions: Fun, and Just a Bit Creepy",
+        "pubDate": "Tue, 13 Aug 2024 22:39:34 +0000",
+        "description": "The new voice feature from OpenAI for ChatGPT is often entertaining and will even do a Trump impression. It likely rolls out to all paid users this fall.",
+        "link": "https://www.wired.com/story/chatgpt-advanced-voice-mode-first-impressions/"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "I went hands-on with every Google Pixel 9 model, and this is the one you should buy",
+        "pubDate": "Tue, 13 Aug 2024 22:38:00 +0000",
+        "description": "The new Google Pixel 9 series has slimmer, flatter designs, improved camera hardware, and AI features that you may actually want to use.",
+        "link": "https://www.zdnet.com/article/i-went-hands-on-with-every-google-pixel-9-model-and-this-is-the-one-you-should-buy/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "Report: DoJ may want to break up Google",
+        "pubDate": "Tue, 13 Aug 2024 22:24:29 +0000",
+        "description": "In an unexpected move, Bloomberg reports, the Justice Department may be considering busting Google up.",
+        "link": "https://www.zdnet.com/article/report-doj-may-want-to-break-up-google/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "I went hands-on with Google's $1,799 Pixel 9 Pro Fold, and I'm ready to switch from Samsung",
+        "pubDate": "Tue, 13 Aug 2024 22:12:00 +0000",
+        "description": "The successor to one of last year's best foldable phones is lighter, brighter, still expensive, and full of potential.",
+        "link": "https://www.zdnet.com/article/i-went-hands-on-with-googles-1799-pixel-9-pro-fold-and-im-ready-to-switch-from-samsung/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Every time Google dinged Apple during its Pixel 9 launch event",
+        "pubDate": "2024-08-13T21:55:53Z",
+        "description": "Photo by Chris Welch / The Verge          In between the reveal of new Pixel phones and AI features at its event today, Google snuck in a few burns targeted at Apple. Some were subtle — others far from it. While it’s not uncommon for companies like Google to draw comparisons to competitors during big events like this, Google seemed to sprinkle references to Apple all throughout its showcase. Maybe that’s because Google has become especially competitive in the AI industry, which Apple has only just barely begun to dip into. Here are all the moments of comparison that we caught during the event. Gemini is going “far beyond English speakers” Image: Google       Gemini is available globally in 45 different languages.    When introducing Gemini, Sameer Samat, the... Continue reading…",
+        "link": "https://www.theverge.com/2024/8/13/24219764/google-dinged-apple-pixel-9-launch-event"
       },
       {
         "category": "technology",
         "website": "NYT > Technology",
-        "title": "Is It Silicon Valley’s Job to Make Guaranteed Income a Reality?",
-        "pubDate": "Tue, 16 Jul 2024 19:20:11 +0000",
-        "description": "The tech community, led by Sam Altman of OpenAI, has funded programs that give people unconditional cash. Some say it’s time to scale up.",
-        "link": "https://www.nytimes.com/2024/07/16/technology/ubi-openai-silicon-valley.html"
+        "title": "Elections Officials Battle a Deluge of Disinformation",
+        "pubDate": "Tue, 13 Aug 2024 21:50:39 +0000",
+        "description": "County clerks and secretaries of state are overwhelmed this year, as they stare down a “perpetual moving target” of new conspiracy theories, political pressure and threats.",
+        "link": "https://www.nytimes.com/2024/08/12/business/media/2024-election-disinformation.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Florida sued over its ban on lab-grown meat",
+        "pubDate": "2024-08-13T21:41:10Z",
+        "description": "Photo by Carolyn Fong for The Washington Post via Getty Images          Upside Foods, a cultivated meat firm, sued Florida over its ban on lab-grown meat, arguing that the state’s legislation prohibiting the sale of cultivated meat is unconstitutional.  Florida Governor Ron DeSantis signed the ban into law in May, describing the legislation as a way of “fighting back against the global elite’s plan to force the world to eat meat grown in a petri dish or bugs to achieve their authoritarian goals.” In a lawsuit filed in federal court on Monday, Upside Foods and the Institute of Justice, a nonprofit public interest law firm, allege that Florida’s lab-grown meat ban is about protecting the state’s cattle industry — and that the law is unconstitutional. The complaint claims SB 1084 violates the Supremacy and... Continue reading…",
+        "link": "https://www.theverge.com/2024/8/13/24219779/florida-lab-grown-meat-lawsuit-upside-foods"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Artists’ lawsuit against Stability AI and Midjourney gets more punch",
+        "pubDate": "2024-08-13T21:35:28Z",
+        "description": "Illustration by Cath Virginia / The Verge | Photos from Getty Images          A lawsuit that several artists filed against Stability AI, Midjourney, and other AI-related companies can proceed with some claims dismissed, a judge ruled yesterday. Many artists allege that popular generative AI services violated copyright law by training on a dataset that included their works and, in some cases, that users of these services can directly reproduce copies of the work. Last year, Judge William Orrick allowed a direct copyright infringement complaint against Stability, operator of the popular Stable Diffusion AI image generator. But he dismissed a variety of other claims and asked the artists’ attorneys to amend them with more detail.  In this more recent ruling, the revised arguments convinced the judge to approve an... Continue reading…",
+        "link": "https://www.theverge.com/2024/8/13/24219520/stability-midjourney-artist-lawsuit-copyright-trademark-claims-approved"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "In 1997, the BBC asked Jeff Bezos when internet shopping would take off",
+        "pubDate": "2024-08-13T21:16:35Z",
+        "description": "Jeff Bezos appearing in a 27-year-old report by the BBC on internet shopping. | Screenshot: YouTube          Earlier this year, Amazon reported $143.3 billion in revenue for the first quarter of 2024. But 27 years ago, the BBC wondered when predictions that the internet revolutionizing shopping would come true, speaking to local bakers, booksellers, and even Jeff Bezos to find out. The Money Programme report, which originally aired in November of 1997, was recently added to the BBC Archive YouTube Channel. In it, reporter Nils Blythe takes a simulated journey on the information superhighway — complete with wonderfully dated ‘90s-era blue screen effects and graphics — and speaks to retailers who had varying levels of success with online commerce at the time.   Those included a small bakery in the UK that was enjoying several thousands of dollars... Continue reading…",
+        "link": "https://www.theverge.com/24219730/jeff-bezos-amazon-bbc-archive-shopping"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "How Google’s new Pixel 9 phones differ from one another (and don’t)",
+        "pubDate": "2024-08-13T21:00:00Z",
+        "description": "The base Pixel 9 is one of four new models, starting at $799. | Image: Google          At its most recent Made by Google event, the monopolistic search giant announced four new phones: the Pixel 9, Pixel 9 Pro, Pixel 9 Pro XL, and Pixel 9 Pro Fold. This is more phones than Google has ever sold at once — especially when you throw in the midrange Pixel 8A from May — making the decision on which to get somewhat confusing.   So, we thought it might be helpful to explain the key differences and similarities between the four new models and succinctly lay out all the finer specs for you to peruse. Hopefully, this will help you choose between the new Pixels, which are set to launch in waves on August 22nd and September 4th. The biggest differences between Pixel 9 phones: price and size What immediately separates most of the Pixel 9... Continue reading…",
+        "link": "https://www.theverge.com/24216079/google-pixel-9-pro-xl-fold-comparison-specs-price-features"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "Google Pixel 9 Pro Fold vs. OnePlus Open: Which one should you buy?",
+        "pubDate": "Tue, 13 Aug 2024 20:48:00 +0000",
+        "description": "Google just unveiled its newest foldable smartphone, but it faces stiff competition from the OnePlus Open. Let's break down the pros and cons of both.",
+        "link": "https://www.zdnet.com/article/google-pixel-9-pro-fold-vs-oneplus-open-which-one-should-you-buy/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Paramount is shutting down its TV studio as part of a new wave of layoffs",
+        "pubDate": "2024-08-13T20:45:19Z",
+        "description": "Image: Paramount          Ahead of its upcoming merger with Skydance Media, Paramount is winding down its TV production studio as part of a larger restructuring effort that will put 15 percent of its current workforce out of jobs. In a memo sent to employees today and obtained by The Hollywood Reporter, Paramount TV head Nicole Clemens and Paramount co-CEO George Cheeks announced that Paramount Global is shuttering the studio. Clemens, who joined Paramount in 2018 following former exec Amy Powell’s sudden exit, is also set to leave the company, and all of Paramount’s currently airing TV series and projects still in development will transition to CBS Studios. In the memo, Clemens and Cheeks insisted that while Paramount TV is coming to an end, “our ethos will live... Continue reading…",
+        "link": "https://www.theverge.com/2024/8/13/24219776/paramount-tv-studios-shut-down-cbs-layoffs"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Google Unveils Pixel 9 Phones to Beat Apple’s iPhone",
+        "pubDate": "Tue, 13 Aug 2024 20:41:24 +0000",
+        "description": "The internet giant unveiled the next generation of Pixel phones, headphones and watches to stand out in a hardware market that has mostly ignored it.",
+        "link": "https://www.nytimes.com/2024/08/13/technology/google-pixel-9.html"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "Lost in translation: AI chatbots still too English-language centric, Stanford study finds",
+        "pubDate": "Tue, 13 Aug 2024 20:40:32 +0000",
+        "description": "Human preferences and experiences are not universal, and AI chatbots need to reflect that.",
+        "link": "https://www.zdnet.com/article/lost-in-translation-ai-chatbots-still-too-english-language-centric-stanford-study-finds/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "Latest news",
+        "title": "The best AI for coding in 2024 (and what not to use)",
+        "pubDate": "Tue, 13 Aug 2024 20:34:00 +0000",
+        "description": "I've been subjecting AI chatbots to a set of real-world programming tests. Which chatbots handled the challenge and which crawled home in shame? Read on.",
+        "link": "https://www.zdnet.com/article/the-best-ai-for-coding/#ftag=RSSbaffb68"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Texas judge who owns Tesla stock recuses himself from X’s advertiser lawsuit",
+        "pubDate": "2024-08-13T20:18:15Z",
+        "description": "Illustration by Laura Normand / The Verge          A Texas judge who was assigned two cases involving Elon Musk’s X platform has recused himself from one of them, shortly after a report that he owns stock in Tesla.  US District Court Judge Reed O’Connor was assigned to X’s recent antitrust lawsuit against advertisers over their boycott of the service, as well as a separate case against Media Matters, which the company sued for a report showing that X displayed ads from major brands next to pro-Nazi content. On Tuesday, O’Connor filed a notice to the court clerk recusing himself from the antitrust lawsuit. He still appears to be assigned to the Media Matters case as of Tuesday afternoon. The recusal came just a few days after NPR reported on O’Connor’s Tesla stock holdings, which, a... Continue reading…",
+        "link": "https://www.theverge.com/2024/8/13/24219740/texas-judge-reed-oconnor-tesla-stock-x-antitrust-lawsuit"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Google’s finally rolling out the Zoom Enhance camera trick it announced last year",
+        "pubDate": "2024-08-13T20:14:37Z",
+        "description": "Photo by Allison Johnson / The Verge          Apparently, turning the cliched “enhance!” meme into reality wasn’t as easy as Google might have initially expected. Today, the company confirmed in a blog post that Zoom Enhance is finally rolling out to the Pixel 8 Pro and will also be present on the Pixel 9 Pro, 9 Pro XL, and 9 Pro Fold at launch.  Google announced the AI-powered Zoom Enhance during last year’s Made by Google event, but we’ve made it all the way to a new generation of phones, and only now is the software feature ready for release. “When you pinch in, Zoom Enhance can intelligently sharpen and enhance the details of your images, so you can get closer than ever, even when you forget to zoom” is how Google’s hardware chief, Rick Osterloh, explained the feature last... Continue reading…",
+        "link": "https://www.theverge.com/2024/8/13/24219750/google-zoom-enhance-pixel-8-9-pro-feature"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "UAW Files Federal Labor Charges Against Donald Trump and Elon Musk, Alleging They Tried to ‘Threaten and Intimidate Workers’",
+        "pubDate": "Tue, 13 Aug 2024 20:12:07 +0000",
+        "description": "During their conversation on X Spaces, Trump seemed to praise Musk for firing striking workers. Those remarks may violate labor law.",
+        "link": "https://www.wired.com/story/uaw-donald-trump-elon-musk-labor-charges/"
+      },
+      {
+        "category": "technology",
+        "website": "The Verge -  All Posts",
+        "title": "Here’s how the new Pixel Watch 3 stacks up against Google’s last-gen model",
+        "pubDate": "2024-08-13T20:00:00Z",
+        "description": "Google’s latest wearable is both bigger and brighter than its predecessors. | Image: Google          Now that Google has officially announced the Pixel Watch 3 after a deluge of leaks and rumors, Android users have even more wearables to choose from. Google’s latest smartwatch will arrive on September 10th and start at $349.99, with the last-gen Pixel Watch 2 hanging around for $249.99. Sadly, Google has dropped the original model from its lineup, though you can still buy it on sale from third-party retailers.   With almost identical names and similar domed displays, it can be confusing to distinguish which watch is which — never mind which to buy. Yet, they’re more different than they appear, with each wearable offering more features and capabilities than its predecessor. The new Pixel Watch 3 offers several advanced running features,... Continue reading…",
+        "link": "https://www.theverge.com/24218577/google-pixel-watch-3-vs-2-comparison-specs-price"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "Kamala Harris' Rally Crowds Aren't AI-Generated. Here's How You Can Tell",
+        "pubDate": "Tue, 13 Aug 2024 19:36:45 +0000",
+        "description": "Conspiracy theories have shot up around images of surging crowds for Harris-Walz campaign events. But all it takes is a little research to prove the photos are real.",
+        "link": "https://www.wired.com/story/kamala-harris-rally-crowds-ai-trump-conspiracy/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The 42 Best Shows on Hulu Right Now (August 2024)",
+        "pubDate": "Tue, 13 Aug 2024 19:00:00 +0000",
+        "description": "The Bear, Futurama, and Solar Opposites just a few of the shows you should be watching on Hulu this month.",
+        "link": "https://www.wired.com/story/best-tv-shows-hulu-this-week/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "Thousands of People Are Playing the Mysterious Game ‘Deadlock’ Right Now",
+        "pubDate": "Tue, 13 Aug 2024 18:30:55 +0000",
+        "description": "No official details exist yet for Deadlock, the rumored 6v6 team shooter from Valve. That hasn’t stopped people from playing it on Steam.",
+        "link": "https://www.wired.com/story/valve-deadlock-secret-game-thousands-playing/"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " Xreal's Beam Pro is a new cheap spatial computer doesn't quite stick the landing ",
-        "pubDate": "Tue, 16 Jul 2024 19:00:38 +0000",
-        "description": "The Xreal Beam Pro delivers a solid portable TV experience, but it's not yet the spatial computer we need it to be.",
-        "link": "https://www.techradar.com/computing/virtual-reality-augmented-reality/xreals-beam-pro-is-a-new-cheap-spatial-computer-doesnt-quite-stick-the-landing"
+        "title": " Google Gemini Live is the first AI that almost encourages you to be rude ",
+        "pubDate": "Tue, 13 Aug 2024 18:16:34 +0000",
+        "description": "Google launches Gemini Live AI assistant that users can interrupt and converse with like a human.",
+        "link": "https://www.techradar.com/computing/artificial-intelligence/google-gemini-live-is-the-first-ai-that-almost-encourages-you-to-be-rude"
       },
       {
         "category": "technology",
         "website": "NYT > Technology",
-        "title": "How Microsoft’s Satya Nadella Became Tech’s Steely Eyed A.I. Gambler",
-        "pubDate": "Tue, 16 Jul 2024 15:05:23 +0000",
-        "description": "Microsoft’s all-in moment on artificial intelligence has been defined by billions in spending and a C.E.O. counting on technology with huge potential and huge risks.",
-        "link": "https://www.nytimes.com/2024/07/14/technology/microsoft-ai-satya-nadella.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "'Konfety' Ad Fraud Uses 250+ Google Play Decoy Apps to Hide Malicious Twins",
-        "pubDate": "Tue, 16 Jul 2024 18:30:00 +0530",
-        "description": "Details have emerged about a \"massive ad fraud operation\" that leverages hundreds of apps on the Google Play Store to perform a host of nefarious activities. The campaign has been codenamed Konfety – the Russian word for Candy – owing to its abuse of a mobile advertising software development kit (SDK) associated with a Russia-based ad network called CaramelAds. \"Konfety represents a new form of",
-        "link": "https://thehackernews.com/2024/07/konfety-ad-fraud-uses-250-google-play.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Threat Prevention & Detection in SaaS Environments - 101",
-        "pubDate": "Tue, 16 Jul 2024 16:30:00 +0530",
-        "description": "Identity-based threats on SaaS applications are a growing concern among security professionals, although few have the capabilities to detect and respond to them.  According to the US Cybersecurity and Infrastructure Security Agency (CISA), 90% of all cyberattacks begin with phishing, an identity-based threat. Throw in attacks that use stolen credentials, over-provisioned accounts, and",
-        "link": "https://thehackernews.com/2024/07/threat-prevention-detection-in-saas.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Malicious npm Packages Found Using Image Files to Hide Backdoor Code",
-        "pubDate": "Tue, 16 Jul 2024 15:39:00 +0530",
-        "description": "Cybersecurity researchers have identified two malicious packages on the npm package registry that concealed backdoor code to execute malicious commands sent from a remote server. The packages in question – img-aws-s3-object-multipart-copy and legacyaws-s3-object-multipart-copy – have been downloaded 190 and 48 times each. As of writing, they have been taken down by the npm security team. \"They",
-        "link": "https://thehackernews.com/2024/07/malicious-npm-packages-found-using.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Iranian Hackers Deploy New BugSleep Backdoor in Middle East Cyber Attacks",
-        "pubDate": "Tue, 16 Jul 2024 14:43:00 +0530",
-        "description": "The Iranian nation-state actor known as MuddyWater has been observed using a never-before-seen backdoor as part of a recent attack campaign, shifting away from its well-known tactic of deploying legitimate remote monitoring and management (RMM) software for maintaining persistent access. That's according to independent findings from cybersecurity firms Check Point and Sekoia, which have",
-        "link": "https://thehackernews.com/2024/07/iranian-hackers-deploy-new-bugsleep.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Elon Musk Enters Uncharted Territory With Trump Endorsement",
-        "pubDate": "Tue, 16 Jul 2024 09:03:54 +0000",
-        "description": "The owner of X broke with tradition at other social media companies to support the former president, as he drives political conversation on his site.",
-        "link": "https://www.nytimes.com/2024/07/16/technology/elon-musk-trump.html"
-      },
-      {
-        "category": "technology",
-        "website": "The Hacker News",
-        "title": "Void Banshee APT Exploits Microsoft MHTML Flaw to Spread Atlantida Stealer",
-        "pubDate": "Tue, 16 Jul 2024 14:30:00 +0530",
-        "description": "An advanced persistent threat (APT) group called Void Banshee has been observed exploiting a recently disclosed security flaw in the Microsoft MHTML browser engine as a zero-day to deliver an information stealer called Atlantida. Cybersecurity firm Trend Micro, which observed the activity in mid-May 2024, the vulnerability – tracked as CVE-2024-38112 – was used as part of a multi-stage attack",
-        "link": "https://thehackernews.com/2024/07/void-banshee-apt-exploits-microsoft.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Donald Trump Was Shot. Then the Conspiracy Theories Spread.",
-        "pubDate": "Mon, 15 Jul 2024 22:14:47 +0000",
-        "description": "Claims that President Biden and his allies ordered the attack on Donald J. Trump, or that Mr. Trump staged the attack, started quickly and spread fast across social media.",
-        "link": "https://www.nytimes.com/2024/07/15/technology/trump-shooting-conspiracy-theories.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Electric Vehicles May Become Harder to Rent",
-        "pubDate": "Mon, 15 Jul 2024 19:30:03 +0000",
-        "description": "Rental car firms are offering temporary deals on electric cars, which they are selling after they lost value more quickly than expected.",
-        "link": "https://www.nytimes.com/2024/07/14/business/electric-vehicles-rental-cars.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "Google Close to Its Biggest Acquisition Ever, Despite Antitrust Scrutiny",
-        "pubDate": "Mon, 15 Jul 2024 18:31:38 +0000",
-        "description": "The search giant’s negotiations to buy Wiz, a cybersecurity start-up, for $23 billion, come as the Biden administration has taken a hard line against consolidation in tech and other industries.",
-        "link": "https://www.nytimes.com/2024/07/14/technology/google-wiz-deal.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "A Reporter Who Sees Meaning in the Stars",
-        "pubDate": "Sun, 14 Jul 2024 07:00:18 +0000",
-        "description": "As a science reporter, Katrina Miller covers the cosmos, innovations in physics, space exploration and more.",
-        "link": "https://www.nytimes.com/2024/07/14/insider/space-reporting.html"
-      },
-      {
-        "category": "technology",
-        "website": "NYT > Technology",
-        "title": "The End of the Affair? Not for Eric Schmidt.",
-        "pubDate": "Fri, 12 Jul 2024 17:26:01 +0000",
-        "description": "While Mr. Schmidt was chief executive of Google, he had an extramarital relationship with Marcy Simon, a public relations executive. A decade after they split, things are still messy.",
-        "link": "https://www.nytimes.com/2024/07/12/technology/eric-schmidt-affair.html"
+        "title": "Musk’s Trump Talk on X: After Glitchy Start, a Two-Hour Ramble",
+        "pubDate": "Tue, 13 Aug 2024 17:43:21 +0000",
+        "description": "Problems in the livestream renewed questions about X’s ability to handle big events, but it also showed how the platform can still grab attention.",
+        "link": "https://www.nytimes.com/2024/08/13/technology/elon-musk-x-donald-trump.html"
       },
       {
         "category": "technology",
         "website": " TechRadar - All the latest technology news ",
-        "title": " NYT Wordle today — answer and hints for game #1124, Wednesday, July 17 ",
+        "title": " Windows 11 art lovers, take note: Paint 3D’s days are numbered – so make sure you download it from the Microsoft Store while you still can ",
+        "pubDate": "Tue, 13 Aug 2024 17:01:41 +0000",
+        "description": "Microsoft is canning Paint 3D when November 2024 rolls around, so download the app while it’s still available!",
+        "link": "https://www.techradar.com/computing/windows/windows-11-art-lovers-take-note-paint-3ds-days-are-numbered-so-make-sure-you-download-it-from-the-microsoft-store-while-you-still-can"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "Google’s New Pixel Watch 3 Can Detect a Loss of Pulse",
+        "pubDate": "Tue, 13 Aug 2024 17:00:00 +0000",
+        "description": "The company’s wearables technicians talk about pioneering new health advances, along with the challenges they’ve faced and the successes they’ve earned after a decade of Wear OS.",
+        "link": "https://www.wired.com/story/google-new-pixel-watch-3-can-detect-a-loss-of-pulse/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "For Google’s Pixel Camera Team, It’s All About the Memories",
+        "pubDate": "Tue, 13 Aug 2024 17:00:00 +0000",
+        "description": "In exclusive interviews, Google’s Pixel imaging team explains how its new camera tech can capture a photo that’s more realistic and natural—and how its new AI tools can reimagine an entire scene.",
+        "link": "https://www.wired.com/story/google-pixel-9-real-tone-pixel-camera-interview/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "Google Pixel 9, Pixel 9 Pro Fold, Pixel Watch 3, Pixel Buds Pro 2: Specs, Features, Release Date",
+        "pubDate": "Tue, 13 Aug 2024 17:00:00 +0000",
+        "description": "The Pixel 9 series now features four phones, including the Pixel 9 Pro Fold, alongside the Pixel Watch 3 and Pixel Buds Pro 2.",
+        "link": "https://www.wired.com/story/made-by-google-pixel-9-phones-pixel-watch-3-pixel-buds-pro-2/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "The Google Pixel 9’s AI Camera Features Let You Reshape Reality",
+        "pubDate": "Tue, 13 Aug 2024 17:00:00 +0000",
+        "description": "Add Me, Reimagine, Autoframe, and Zoom Enhance—these camera features allow you to alter your photos with zero technical know-how.",
+        "link": "https://www.wired.com/story/all-the-new-generative-ai-camera-features-in-google-pixel-9-phones/"
+      },
+      {
+        "category": "technology",
+        "website": "Wired",
+        "title": "Lawsuit Attacks Florida’s Lab-Grown Meat Ban as Unconstitutional",
+        "pubDate": "Tue, 13 Aug 2024 16:47:31 +0000",
+        "description": "Upside Foods, a leading cultivated-meat company, argues that the ban violates the US Constitution in several ways.",
+        "link": "https://www.wired.com/story/upside-foods-institute-of-justice-cultivated-lab-grown-meat-lawsuit-florida-ron-desantis/"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " The first macOS Sequoia beta with Apple Intelligence just landed, but only a select few can try it out ",
+        "pubDate": "Tue, 13 Aug 2024 16:00:32 +0000",
+        "description": "Apple drops macOS Sequoia 15.1 beta 2, which finally brings long-awaited AI features.",
+        "link": "https://www.techradar.com/computing/mac-os/the-first-macos-sequoia-beta-with-apple-intelligence-just-landed-but-only-a-select-few-can-try-it-out"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "GhostWrite: New T-Head CPU Bugs Expose Devices to Unrestricted Attacks",
+        "pubDate": "Tue, 13 Aug 2024 19:32:00 +0530",
+        "description": "A team of researchers from the CISPA Helmholtz Center for Information Security in Germany has disclosed an architectural bug impacting Chinese chip company T-Head's XuanTie C910 and C920 RISC-V CPUs that could allow attackers to gain unrestricted access to susceptible devices. The vulnerability has been codenamed GhostWrite. It has been described as a direct CPU bug embedded in the hardware, as",
+        "link": "https://thehackernews.com/2024/08/ghostwrite-new-t-head-cpu-bugs-expose.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Researchers Uncover Vulnerabilities in AI-Powered Azure Health Bot Service",
+        "pubDate": "Tue, 13 Aug 2024 18:30:00 +0530",
+        "description": "Cybersecurity researchers have discovered two security flaws in Microsoft's Azure Health Bot Service that, if exploited, could permit a malicious actor to achieve lateral movement within customer environments and access sensitive patient data. The critical issues, now patched by Microsoft, could have allowed access to cross-tenant resources within the service, Tenable said in a new report shared",
+        "link": "https://thehackernews.com/2024/08/researchers-uncover-vulnerabilities-in_0471960302.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Why Hardsec Matters: From Protecting Critical Services to Enhancing Resilience",
+        "pubDate": "Tue, 13 Aug 2024 16:26:00 +0530",
+        "description": "Traditionally, the focus has been on defending against digital threats such as malware, ransomware, and phishing attacks by detecting them and responding. However, as cyber threats become more sophisticated. There is a growing recognition of the importance of measures that stop new attacks before they are recognized. With high-value assets, it’s not good enough to have the protection, it’s",
+        "link": "https://thehackernews.com/2024/08/why-hardsec-matters-from-protecting.html"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " New version of Nvidia RTX 4070 graphics card spotted with slower VRAM – here’s why that might just be a good thing ",
+        "pubDate": "Tue, 13 Aug 2024 10:44:54 +0000",
+        "description": "Leak shows a tamer version of Nvidia’s RTX 4070 GPU could be on shelves soon – dare we hope that it’s cheaper?",
+        "link": "https://www.techradar.com/computing/gpu/new-version-of-nvidia-rtx-4070-graphics-card-spotted-with-slower-vram-heres-why-that-might-just-be-a-good-thing"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " Apple Maps could be plotting a big update to help it compete with Google Maps' Street View ",
+        "pubDate": "Tue, 13 Aug 2024 10:24:33 +0000",
+        "description": "Expect Look Around to be looking around more places and more countries in the not-too-distant future.",
+        "link": "https://www.techradar.com/computing/websites-apps/apple-maps-could-be-plotting-a-big-update-to-help-it-compete-with-google-maps-street-view"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "FBI Shuts Down Dispossessor Ransomware Group's Servers Across U.S., U.K., and Germany",
+        "pubDate": "Tue, 13 Aug 2024 14:34:00 +0530",
+        "description": "The U.S. Federal Bureau of Investigation (FBI) on Monday announced the disruption of online infrastructure associated with a nascent ransomware group called Radar/Dispossessor. The effort saw the dismantling of three U.S. servers, three United Kingdom servers, 18 German servers, eight U.S.-based criminal domains, and one German-based criminal domain. Dispossessor is said to be led by individual(",
+        "link": "https://thehackernews.com/2024/08/fbi-shuts-down-dispossessor-ransomware.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Ukraine Warns of New Phishing Campaign Targeting Government Computers",
+        "pubDate": "Tue, 13 Aug 2024 10:42:00 +0530",
+        "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new phishing campaign that masquerades as the Security Service of Ukraine to distribute malware capable of remote desktop access. The agency is tracking the activity under the name UAC-0198. More than 100 computers are estimated to have been infected since July 2024, including those related to government bodies in the",
+        "link": "https://thehackernews.com/2024/08/ukraine-warns-of-new-phishing-campaign.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Tether Co-Founder Faces the Unraveling of a Crypto Dream",
+        "pubDate": "Tue, 13 Aug 2024 04:01:30 +0000",
+        "description": "Brock Pierce arrived in Puerto Rico seven years ago, promising to use crypto magic to revitalize the local economy. Now he’s mired in legal disputes and fighting with his business partners.",
+        "link": "https://www.nytimes.com/2024/08/13/technology/brock-pierce-crypto-puerto-rico.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Fact-Checking Trump’s Talk With Elon Musk on X",
+        "pubDate": "Tue, 13 Aug 2024 04:00:31 +0000",
+        "description": "Fact-checking Donald Trump’s claims about immigration, Vice President Kamala Harris, President Biden and more.",
+        "link": "https://www.nytimes.com/2024/08/12/us/politics/trump-musk-x-fact-check.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "X Spaces With Trump and Musk Is Off to a Glitchy Start",
+        "pubDate": "Tue, 13 Aug 2024 00:37:00 +0000",
+        "description": "The audio livestream of a conversation between Elon Musk and the former president ran late as users scrambled to try to access the site.",
+        "link": "https://www.nytimes.com/2024/08/12/technology/trump-musk-x-spaces-interview.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Trump Returns to X in Victory for Elon Musk",
+        "pubDate": "Mon, 12 Aug 2024 20:09:24 +0000",
+        "description": "The former president posted a campaign video ahead of a scheduled interview on the platform with Mr. Musk, who reinstated Mr. Trump’s account shortly after buying the site in 2022.",
+        "link": "https://www.nytimes.com/2024/08/12/technology/donald-trump-elon-musk-x.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Elon Musk Is Using X to Push His Views, and Donald Trump",
+        "pubDate": "Mon, 12 Aug 2024 19:46:00 +0000",
+        "description": "Mr. Musk has become a vocal supporter of Mr. Trump. It wasn’t always that way.",
+        "link": "https://www.nytimes.com/2024/08/12/technology/elon-musk-political-views.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "How Phishing Attacks Adapt Quickly to Capitalize on Current Events",
+        "pubDate": "Mon, 12 Aug 2024 16:50:00 +0530",
+        "description": "In 2023, no fewer than 94 percent of businesses were impacted by phishing attacks, a 40 percent increase compared to the previous year, according to research from Egress. What's behind the surge in phishing? One popular answer is AI – particularly generative AI, which has made it trivially easier for threat actors to craft content that they can use in phishing campaigns, like malicious emails",
+        "link": "https://thehackernews.com/2024/08/how-phishing-attacks-adapt-quickly-to.html"
+      },
+      {
+        "category": "technology",
+        "website": "The Hacker News",
+        "title": "Researchers Uncover Vulnerabilities in Solarman and Deye Solar Systems",
+        "pubDate": "Mon, 12 Aug 2024 16:00:00 +0530",
+        "description": "Cybersecurity researchers have identified a number of security shortcomings in photovoltaic system management platforms operated by Chinese companies Solarman and Deye that could enable malicious actors to cause disruption and power blackouts. \"If exploited, these vulnerabilities could allow an attacker to control inverter settings that could take parts of the grid down, potentially causing",
+        "link": "https://thehackernews.com/2024/08/researchers-uncover-vulnerabilities-in.html"
+      },
+      {
+        "category": "technology",
+        "website": "NYT > Technology",
+        "title": "Brands Love Influencers (Until Politics Get Involved)",
+        "pubDate": "Mon, 12 Aug 2024 09:02:46 +0000",
+        "description": "Marketing firms are using artificial intelligence to help analyze influencers and predict whether they will opine about the election.",
+        "link": "https://www.nytimes.com/2024/08/12/business/media/influencers-politics-ai-analysis.html"
+      },
+      {
+        "category": "technology",
+        "website": " TechRadar - All the latest technology news ",
+        "title": " NYT Wordle today — answer and hints for game #1152, Wednesday, August 14 ",
         "pubDate": "Tue, 14 Feb 2023 09:56:57 +0000",
         "description": "Looking for Wordle hints? We can help. Plus get the answers to Wordle today and yesterday.",
         "link": "https://www.techradar.com/news/wordle-today"
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
